@@ -1,0 +1,1591 @@
+03-03 15:40:57.322  2399  2399 I RILD    : rild_main: i: begin
+03-03 15:40:57.322  2399  2399 I RILD    :     rild_main: i: argc=1
+03-03 15:40:57.322  2399  2399 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:40:57.323  2399  2399 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:40:57.323  2399  2399 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:40:57.566  2399  2399 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:40:57.566  2399  2399 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:01.375  2871  2871 I RILD    : rild_main: i: begin
+03-03 15:41:01.375  2871  2871 I RILD    :     rild_main: i: argc=1
+03-03 15:41:01.375  2871  2871 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:01.375  2871  2871 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:01.376  2871  2871 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:01.376  2871  2871 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:01.388  2871  2871 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:01.389  2871  2871 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:06.507  2911  2911 I RILD    : rild_main: i: begin
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: i: argc=1
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:06.507  2911  2911 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:06.507  2911  2911 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:06.547  2911  2911 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:06.547  2911  2911 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:11.652  2927  2927 I RILD    : rild_main: i: begin
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: i: argc=1
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:11.652  2927  2927 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:11.652  2927  2927 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:11.676  2927  2927 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:11.686  2927  2927 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:16.794  2943  2943 I RILD    : rild_main: i: begin
+03-03 15:41:16.794  2943  2943 I RILD    :     rild_main: i: argc=1
+03-03 15:41:16.794  2943  2943 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:16.795  2943  2943 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:16.795  2943  2943 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:16.820  2943  2943 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:16.820  2943  2943 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:21.987  2959  2959 I RILD    : rild_main: i: begin
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: i: argc=1
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:21.987  2959  2959 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:21.988  2959  2959 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:21.988  2959  2959 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:21.988  2959  2959 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:22.024  2959  2959 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:22.024  2959  2959 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:26.202  2976  2976 I RILD    : rild_main: i: begin
+03-03 15:41:26.202  2976  2976 I RILD    :     rild_main: i: argc=1
+03-03 15:41:26.202  2976  2976 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:26.202  2976  2976 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:26.202  2976  2976 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:26.203  2976  2976 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:26.203  2976  2976 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:26.276  2976  2976 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:26.277  2976  2976 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:31.373  2992  2992 I RILD    : rild_main: i: begin
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: i: argc=1
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:31.373  2992  2992 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:31.373  2992  2992 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:31.380  2992  2992 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:31.380  2992  2992 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:36.433  3010  3010 I RILD    : rild_main: i: begin
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: i: argc=1
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:36.433  3010  3010 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:36.433  3010  3010 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:36.441  3010  3010 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:36.441  3010  3010 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:37.295  2415  2415 D TelephonyManager: /proc/cmdline=hisi_dma_print=0 vmalloc=384M maxcpus=8 no_irq_affinity androidboot.selinux=disabled iommu_ddr_size=0x80000000 mem=1932M boardid=0x48696220,0x00000011,0x000002cf productid=0x3db54555 androidboot.mode=normal pmu_nv_addr=0x070c89b0 low_volt_flag=0 iommu_enable  enter_recovery=0 androidboot.swtype=normal fastboot_version=DailyBuild_201612212154_FASTBOOT androidboot.serialno=QLF7N16B11010320 rescue_version=  otg.status=disable normal_reset_type=ColdReset himntn=00011100000000000000000000001000 LCD_TYPE=TM_NT35521_LCD density=320 setup_logctl=0 loglevel=5 bitmapofabnrst=0x00000010  boot_slice=0x0002944a no_uart_console mdmlogbase=0x00000000 mdmlogsize=0x00000000 mdmlogtime=0x00000000 async_loadmodem efuse_status=0 recovery_update=0 fblock=unlocked androidboot.hardware=hi6210sft 
+03-03 15:41:37.297  2413  2413 D TelephonyManager: /proc/cmdline=hisi_dma_print=0 vmalloc=384M maxcpus=8 no_irq_affinity androidboot.selinux=disabled iommu_ddr_size=0x80000000 mem=1932M boardid=0x48696220,0x00000011,0x000002cf productid=0x3db54555 androidboot.mode=normal pmu_nv_addr=0x070c89b0 low_volt_flag=0 iommu_enable  enter_recovery=0 androidboot.swtype=normal fastboot_version=DailyBuild_201612212154_FASTBOOT androidboot.serialno=QLF7N16B11010320 rescue_version=  otg.status=disable normal_reset_type=ColdReset himntn=00011100000000000000000000001000 LCD_TYPE=TM_NT35521_LCD density=320 setup_logctl=0 loglevel=5 bitmapofabnrst=0x00000010  boot_slice=0x0002944a no_uart_console mdmlogbase=0x00000000 mdmlogsize=0x00000000 mdmlogtime=0x00000000 async_loadmodem efuse_status=0 recovery_update=0 fblock=unlocked androidboot.hardware=hi6210sft 
+03-03 15:41:41.538  3060  3060 I RILD    : rild_main: i: begin
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: i: argc=1
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:41.538  3060  3060 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:41.538  3060  3060 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:41.554  3060  3060 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:41.555  3060  3060 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:46.708  3171  3171 I RILD    : rild_main: i: begin
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: i: argc=1
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:46.708  3171  3171 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:46.708  3171  3171 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:46.712  3171  3171 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:46.712  3171  3171 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:51.762  3661  3661 I RILD    : rild_main: i: begin
+03-03 15:41:51.762  3661  3661 I RILD    :     rild_main: i: argc=1
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:51.763  3661  3661 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:51.763  3661  3661 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:51.768  3661  3661 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:51.768  3661  3661 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:41:56.824  3740  3740 I RILD    : rild_main: i: begin
+03-03 15:41:56.824  3740  3740 I RILD    :     rild_main: i: argc=1
+03-03 15:41:56.824  3740  3740 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:41:56.824  3740  3740 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:41:56.825  3740  3740 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:41:56.825  3740  3740 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:41:56.862  3740  3740 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:41:56.862  3740  3740 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:01.871  3829  3829 I RILD    : rild_main: i: begin
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: i: argc=1
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:01.871  3829  3829 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:01.871  3829  3829 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:01.875  3829  3829 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:01.875  3829  3829 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:06.453  3891  3891 I RILD    : rild_main: i: begin
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: i: argc=1
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:06.453  3891  3891 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:06.454  3891  3891 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:06.454  3891  3891 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:06.541  3891  3891 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:06.541  3891  3891 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:12.021  3995  3995 I RILD    : rild_main: i: begin
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: i: argc=1
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:12.021  3995  3995 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:12.021  3995  3995 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:12.055  3995  3995 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:12.055  3995  3995 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:17.135  4077  4077 I RILD    : rild_main: i: begin
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: i: argc=1
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:17.135  4077  4077 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:17.135  4077  4077 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:17.157  4077  4077 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:17.157  4077  4077 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:21.222  4181  4181 I RILD    : rild_main: i: begin
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: i: argc=1
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:21.222  4181  4181 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:21.222  4181  4181 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:21.260  4181  4181 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:21.260  4181  4181 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:26.340  4220  4220 I RILD    : rild_main: i: begin
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: i: argc=1
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:26.340  4220  4220 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:26.340  4220  4220 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:26.354  4220  4220 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:26.354  4220  4220 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:31.406  4313  4313 I RILD    : rild_main: i: begin
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: i: argc=1
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:31.406  4313  4313 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:31.407  4313  4313 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:31.407  4313  4313 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:31.407  4313  4313 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:31.411  4313  4313 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:31.412  4313  4313 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:36.477  4417  4417 I RILD    : rild_main: i: begin
+03-03 15:42:36.477  4417  4417 I RILD    :     rild_main: i: argc=1
+03-03 15:42:36.477  4417  4417 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:36.477  4417  4417 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:36.478  4417  4417 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:36.478  4417  4417 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:36.499  4417  4417 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:36.499  4417  4417 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:41.553  4466  4466 I RILD    : rild_main: i: begin
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: i: argc=1
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:41.553  4466  4466 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:41.553  4466  4466 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:41.742  4466  4466 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:41.743  4466  4466 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:46.844  4581  4581 I RILD    : rild_main: i: begin
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: i: argc=1
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:46.844  4581  4581 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:46.844  4581  4581 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:46.849  4581  4581 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:46.849  4581  4581 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:51.897  4751  4751 I RILD    : rild_main: i: begin
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: i: argc=1
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:51.897  4751  4751 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:51.898  4751  4751 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:51.927  4751  4751 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:51.927  4751  4751 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:55.973  3024  3024 W SmsApplication: com.android.phone does not have OP_WRITE_SMS:  (fixing)
+03-03 15:42:55.973  3024  3024 W SmsApplication: com.android.bluetooth does not have OP_WRITE_SMS:  (fixing)
+03-03 15:42:55.974  3024  3024 W SmsApplication: com.android.mms.service does not have OP_WRITE_SMS:  (fixing)
+03-03 15:42:55.975  3024  3024 W SmsApplication: com.android.providers.telephony does not have OP_WRITE_SMS:  (fixing)
+03-03 15:42:55.990  3024  3024 W CarrierConfigManager: Error getting config for subId -1 ICarrierConfigLoader is null
+03-03 15:42:56.024  3024  4945 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:42:56.223  5058  5058 I RILD    : rild_main: i: begin
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: i: argc=1
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:42:56.223  5058  5058 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:42:56.223  5058  5058 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:42:56.237  5058  5058 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:42:56.237  5058  5058 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:42:57.060  3024  3101 D TelephonyRegistry: systemRunning register for intents
+03-03 15:42:57.627  3024  3024 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=0 cellLocation=Bundle[{}]
+03-03 15:42:58.302  3024  4946 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:01.629  5461  5461 I RILD    : rild_main: i: begin
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: i: argc=1
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:01.629  5461  5461 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:01.629  5461  5461 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:01.657  5461  5461 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:01.657  5461  5461 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:03.358  5225  5225 D TelephonyPluginDelegate: Extension = @/system/framework/
+03-03 15:43:03.359  5225  5225 D TelephonyPluginDelegate: classLoader = dalvik.system.PathClassLoader[DexPathList[[directory "/system/framework"],nativeLibraryDirectories=[/vendor/lib64, /system/lib64]]]
+03-03 15:43:03.359  5225  5225 D TelephonyPluginDelegate: No customized TelephonyPlugin available, fallback to default
+03-03 15:43:03.359  5225  5225 D TelephonyPluginDelegate: cls = class com.android.internal.telephony.DefaultTelephonyPlugin
+03-03 15:43:03.359  5225  5225 D TelephonyPluginDelegate: constructor method = public com.android.internal.telephony.DefaultTelephonyPlugin()
+03-03 15:43:03.360  5225  5225 D TDC     : updateOrInsert: inserting: Modem { uuid=modem, state=0, rilModel=0, rat={}, maxActiveVoiceCall=1, maxActiveDataCall=1, maxStandby=1 }
+03-03 15:43:03.361  5225  5225 D TDC     : updateOrInsert: inserting: Sim { uuid=sim, modemUuid=modem, state=0 }
+03-03 15:43:03.364  5225  5225 D CdmaSSM : subscriptionSource from settings: 1
+03-03 15:43:03.365  5225  5225 I PhoneFactory: Cdma Subscription set to 1
+03-03 15:43:03.371  5225  5225 I PhoneFactory: RILClassname is HwHisiRIL
+03-03 15:43:03.372  5225  5225 I PhoneFactory: Network Mode set to 0
+03-03 15:43:03.373  5225  5225 D RILJ    : RIL(context, preferredNetworkType=0 cdmaSubscription=1)
+03-03 15:43:03.375  5225  5225 D RILJ    : Starting RILReceiver0 [SUB0]
+03-03 15:43:03.379  5225  5225 D RILJ    : [3648]> GET_HARDWARE_CONFIG [SUB0]
+03-03 15:43:03.379  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:03.380  5225  5225 D RilRequest: [3648]< GET_HARDWARE_CONFIG error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.381  5225  5225 I PhoneFactory: Creating SubscriptionController
+03-03 15:43:03.383  5225  5225 D SubscriptionController: [SubscriptionController] init by Context
+03-03 15:43:03.384  5225  5225 D UiccController: Creating UiccController
+03-03 15:43:03.389  5225  5225 D TelephonyTester: register for intent action=com.android.internal.telephony.gsm.action_detached
+03-03 15:43:03.389  5225  5225 D TelephonyTester: register for intent action=com.android.internal.telephony.gsm.action_attached
+03-03 15:43:03.391  5225  5225 D PhoneBase: mDoesRilSendMultipleCallRing=true
+03-03 15:43:03.391  5225  5225 D PhoneBase: mCallRingDelay=3000
+03-03 15:43:03.396  5225  5225 D RILJ    : [3649]> RIL_REQUEST_START_LCE [SUB0]
+03-03 15:43:03.397  5225  5225 D RilRequest: [3649]< RIL_REQUEST_START_LCE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.397  5225  5225 D PhoneBase: mOosIsDisconnect=true
+03-03 15:43:03.397  5225  5225 D RILJ    : setPhoneType=1 old value=0 [SUB0]
+03-03 15:43:03.403  3024  4945 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:03.403  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+03-03 15:43:03.409  5225  5225 D RILJ    : [3650]> SIGNAL_STRENGTH [SUB0]
+03-03 15:43:03.409  5225  5225 D RilRequest: [3650]< SIGNAL_STRENGTH error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.413  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.415  3024  4946 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:03.418  5225  5225 D Dcc     : E ctor
+03-03 15:43:03.418  5225  5225 D Dcc     : X ctor
+03-03 15:43:03.420  5225  5225 D SubscriptionController: [getPhoneId] asked for default subId=-1
+03-03 15:43:03.421  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.422  5225  5481 D DcTesterDeacativeAll: register for intent action=com.android.internal.telephony.dataconnection.action_deactivate_all
+03-03 15:43:03.422  5225  5481 D DcTesterDeacativeAll: register for intent action=com.android.internal.telephony.gsm.action_detached
+03-03 15:43:03.423  5225  5225 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.dataconnection.action_fail_bringup
+03-03 15:43:03.423  5225  5225 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.gsm.action_detached
+03-03 15:43:03.424  5225  5225 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.gsm.action_attached
+03-03 15:43:03.425  5225  5225 D GsmSST  : [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+03-03 15:43:03.425  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+03-03 15:43:03.425  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.425  5225  5225 D DCT     : [0]update sub = -2
+03-03 15:43:03.425  5225  5225 D DCT     : [0]update(): Active DDS, register for all events now!
+03-03 15:43:03.425  5225  5225 D DCT     : [0]onUpdateIcc: newIccRecords null
+03-03 15:43:03.429  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.429  5225  5225 D GSMPhone: [GSMPhone] updateCurrentCarrierInProvider: mSubId = -2 currentDds = -1 operatorNumeric = null
+03-03 15:43:03.430  5225  5225 D DCT     : [0]initApnContexts: E
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: skipping unknown type=1
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.431  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.432  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.432  5225  5225 D DCT     : [0]initApnContexts: apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+03-03 15:43:03.432  5225  5225 D DCT     : [0]initApnContexts: skipping unknown type=7
+03-03 15:43:03.432  5225  5225 D DCT     : [0]initApnContexts: X mApnContexts={default={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, mms={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, cbs={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, fota={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, supl={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ia={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, dun={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, hipri={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ims={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}}
+03-03 15:43:03.444  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+03-03 15:43:03.444  5225  5225 D GSMPhone: [GSMPhone] GSMPhone: constructor: sub = 0
+03-03 15:43:03.444  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+03-03 15:43:03.445  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.448  5225  5225 I PhoneFactory: Creating Phone with type = 1 sub = 0
+03-03 15:43:03.452  5225  5225 E RIL_ImsSms: getFormat should never be called from here!
+03-03 15:43:03.452  5225  5225 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=unknown mSmsSendDisabled=false
+03-03 15:43:03.452  5225  5225 D RIL_ImsSms: ImsSMSDispatcher created
+03-03 15:43:03.453  5225  5225 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsSendDisabled=false
+03-03 15:43:03.453  5225  5225 D CdmaSMSDispatcher: CdmaSMSDispatcher created
+03-03 15:43:03.474  5225  5225 D GsmInboundSmsHandler: created InboundSmsHandler
+03-03 15:43:03.484  5225  5225 D CdmaInboundSmsHandler: created InboundSmsHandler
+03-03 15:43:03.488  5225  5225 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsSendDisabled=false
+03-03 15:43:03.488  5225  5225 D GsmSMSDispatcher: GsmSMSDispatcher created
+03-03 15:43:03.489  5225  5500 D SmsBroadcastUndelivered: scanning raw table for undelivered messages
+03-03 15:43:03.490  5225  5225 D IccCardProxy: ctor: ci=com.android.internal.telephony.HwHisiRIL@ee0952d phoneId=0
+03-03 15:43:03.490  5225  5225 D CdmaSSM : subscriptionSource from settings: 1
+03-03 15:43:03.490  5225  5225 D CdmaSSM : cdmaSSM constructor: 1
+03-03 15:43:03.490  5225  5225 D IccCardProxy: update icc_operator_numeric=
+03-03 15:43:03.490  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.numeric value:  propVal=
+03-03 15:43:03.491  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.iso-country value:  propVal=
+03-03 15:43:03.492  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.alpha value:  propVal=
+03-03 15:43:03.492  5225  5225 E IccCardProxy: setExternalState: set mPhoneId=0 mExternalState=NOT_READY
+03-03 15:43:03.492  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.state value: NOT_READY propVal=NOT_READY
+03-03 15:43:03.497  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.497  5225  5225 D IccCardProxy: broadcastIccStateChangedIntent intent ACTION_SIM_STATE_CHANGED value=NOT_READY reason=null for mPhoneId=0
+03-03 15:43:03.498  5225  5225 D IccCardProxy: Setting radio tech UMTS
+03-03 15:43:03.498  5225  5225 D TelephonyManager: getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+03-03 15:43:03.499  5225  5225 D IccCardProxy: updateQuietMode: 3GPP subscription -> newQuietMode=false
+03-03 15:43:03.499  5225  5225 D IccCardProxy: updateQuietMode: no changes don't setExternalState
+03-03 15:43:03.499  5225  5225 D IccCardProxy: updateQuietMode: QuietMode is false (app_type=1 isLteOnCdmaMode=false cdmaSource=-1)
+03-03 15:43:03.501  5225  5240 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:03.503  5225  5240 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:03.512  5225  5225 D ProxyController: Constructor - Enter
+03-03 15:43:03.514  5225  5225 D DctController: makeDctController: new DctController phones.length=1
+03-03 15:43:03.516  5225  5225 D DctController: DctController(): phones.length=1
+03-03 15:43:03.525  5225  5225 D DcSwitchSM: [DcSwitchStateMachine-0] DcSwitchState constructor E
+03-03 15:43:03.526  5225  5225 D DcSwitchSM: [DcSwitchStateMachine-0] DcSwitchState constructor X
+03-03 15:43:03.526  5225  5509 D DcSwitchSM: [DcSwitchStateMachine-0] IdleState: enter
+03-03 15:43:03.529  5225  5225 D DctController: DctController(phones): Connect success: 0
+03-03 15:43:03.529  5225  5225 D DctController: updatePhoneBaseForIndex for phone index=0
+03-03 15:43:03.530  5225  5225 D DctController: unregister TelephonyNetworkFactory for phone index=0
+03-03 15:43:03.532  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.532  5225  5225 D DctController: [TNF -2]NetworkCapabilities: [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]
+03-03 15:43:03.546  3024  3098 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:03.567  5225  5225 D DctController: makeDctController: X sDctController=Handler (com.android.internal.telephony.dataconnection.DctController) {e98c261}
+03-03 15:43:03.571  5225  5225 D ProxyController: clearTransaction
+03-03 15:43:03.571  5225  5225 D ProxyController: clearTransaction: phoneId=0 status=IDLE
+03-03 15:43:03.571  5225  5225 D ProxyController: Constructor - Exit
+03-03 15:43:03.596  5225  5225 I PhoneFactory: defaultSmsApplication: com.android.messaging
+03-03 15:43:03.600  5225  5225 I PhoneFactory: Creating SubInfoRecordUpdater 
+03-03 15:43:03.601  5225  5225 D SubscriptionInfoUpdater: Constructor invoked
+03-03 15:43:03.612  5225  5500 D SmsBroadcastUndelivered: finished scanning raw table in 122 ms
+03-03 15:43:03.612  5225  5483 D GsmInboundSmsHandler: StartupState.processMessage:6
+03-03 15:43:03.612  5225  5498 D CdmaInboundSmsHandler: StartupState.processMessage:6
+03-03 15:43:03.612  5225  5498 D CdmaInboundSmsHandler: entering Idle state
+03-03 15:43:03.612  5225  5483 D GsmInboundSmsHandler: entering Idle state
+03-03 15:43:03.615  5225  5225 D CallManager: registerPhone(GSM Handler (com.android.internal.telephony.PhoneProxy) {8bd3012})
+03-03 15:43:03.637  3024  3856 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:03.655  5225  5225 D RILJ    : [3651]> RIL_REQUEST_SET_TTY_MODE : 0 [SUB0]
+03-03 15:43:03.655  5225  5225 D RilRequest: [3651]< RIL_REQUEST_SET_TTY_MODE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.657  3024  5269 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+03-03 15:43:03.658  5225  5225 D SubscriptionController: [getPhoneId] asked for default subId=-1
+03-03 15:43:03.658  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.658  5225  5225 D UiccController: EVENT_RADIO_UNAVAILABLE, dispose card
+03-03 15:43:03.658  5225  5225 D PhoneBase: config LCE service failed: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE
+03-03 15:43:03.659  5225  5225 D RILJ    : [3652]> GET_CURRENT_CALLS [SUB0]
+03-03 15:43:03.659  5225  5225 D RilRequest: [3652]< GET_CURRENT_CALLS error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] mDeviceShuttingDown = false
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] mDesiredPowerState = true
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] getRadioState = RADIO_UNAVAILABLE
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] mPowerOffDelayNeed = true
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] mAlarmSwitch = false
+03-03 15:43:03.659  5225  5225 D PHONE   : [ServiceState] setNullState=1
+03-03 15:43:03.659  5225  5225 D GsmSST  : [GsmSST] Poll ServiceState done:  oldSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false] newSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+03-03 15:43:03.660  5225  5225 D PHONE   : [ServiceState] setNullState=1
+03-03 15:43:03.661  5225  5225 D GsmSST  : [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='No service.'
+03-03 15:43:03.661  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.661  5225  5225 D GsmSST  : [GsmSST] updateSpnDisplay: changed sending intent rule=0 showPlmn='true' plmn='No service.' showSpn='false' spn='' dataSpn='' subId='-2'
+03-03 15:43:03.664  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.665  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.666  5225  5225 D SubscriptionController: [setPlmnSpn] No valid subscription to store info
+03-03 15:43:03.666  5225  5225 D SubscriptionController: notifySubscriptionInfoChanged:
+03-03 15:43:03.666  3024  4946 D TelephonyRegistry: notifySubscriptionInfoChanged: first invocation mRecords.size=13
+03-03 15:43:03.669  5225  5240 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:03.669  5225  5240 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:03.670  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.alpha value:  propVal=
+03-03 15:43:03.670  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.numeric value:  propVal=
+03-03 15:43:03.671  5225  5225 D GsmSST  : [GsmSST] operatorNumeric is null
+03-03 15:43:03.671  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.iso-country value:  propVal=
+03-03 15:43:03.671  5225  5225 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.isroaming value: false propVal=false
+03-03 15:43:03.672  5225  5241 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:03.673  5225  5225 D GsmSST  : [GsmSST] Broadcasting ServiceState : 1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+03-03 15:43:03.673  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.673  5225  5225 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@7eaaf6a ss=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false sender=Handler (com.android.internal.telephony.gsm.GSMPhone) {d1f23e3} phondId=0 subId=-2
+03-03 15:43:03.673  5225  5241 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:03.674  5225  5225 D SubscriptionController: [getSlotId]- subId invalid
+03-03 15:43:03.675  5225  5225 D SubscriptionController: getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+03-03 15:43:03.675  3024  5224 D SubscriptionManager: getSimStateForSubscriber: simState=6 slotIdx=0
+03-03 15:43:03.675  3024  5224 D TelephonyManager: getSimState: default sim:-1, sim state for slotIdx=0 is 6, return state as unknown
+03-03 15:43:03.677  5225  5225 D DCT     : [0]onUpdateIcc: newIccRecords null
+03-03 15:43:03.678  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.678  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.682  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.686  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.686  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.687  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.688  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.688  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.689  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.690  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.690  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.691  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.692  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.692  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.692  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.694  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.694  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.695  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.697  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.698  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.698  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.699  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.699  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.700  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.701  5225  5225 D GSMPhone: getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+03-03 15:43:03.701  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.702  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.703  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.704  5225  5225 D DCT     : [0]cleanUpConnection: mDisconnectPendingCount = 0
+03-03 15:43:03.704  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.705  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.706  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.707  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.708  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.708  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.709  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.710  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.711  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.712  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.714  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.715  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.716  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.716  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.717  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.718  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.719  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.720  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.721  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.721  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.722  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.723  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.723  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.724  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.725  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.726  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.727  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.728  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.729  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.731  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.731  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.732  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.733  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.734  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.735  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.735  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.737  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.738  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.738  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.739  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.740  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.740  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.741  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.742  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.743  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.744  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.746  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.747  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.748  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.749  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.750  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.750  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.751  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.752  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.753  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.754  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.756  5225  5225 D DCT     : [0]onUpdateIcc: newIccRecords null
+03-03 15:43:03.756  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.756  5225  5225 D GsmSMSDispatcher: GsmSMSDispatcher: subId = -2 slotId = 0
+03-03 15:43:03.756  5225  5225 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+03-03 15:43:03.756  5225  5225 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+03-03 15:43:03.756  5225  5225 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+03-03 15:43:03.757  5225  5225 D DctController: EVENT_PHONE1_DATA_DETACH.
+03-03 15:43:03.757  5225  5509 D DcSwitchSM: [DcSwitchStateMachine-0] DefaultState: shouldn't happen but ignore msg.what=0x44008
+03-03 15:43:03.757  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.757  5225  5225 D DctController: [TNF -2]got request NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+03-03 15:43:03.757  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.757  5225  5225 D DctController: [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+03-03 15:43:03.758  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.758  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.758  5225  5225 D DctController: [TNF -2]Request not useable, pending request.
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: [Receiver]+
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: Action: android.intent.action.SIM_STATE_CHANGED
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: slotId: 0
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: simStatus: NOT_READY
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: Ignoring simStatus: NOT_READY
+03-03 15:43:03.759  5225  5225 D SubscriptionInfoUpdater: [Receiver]-
+03-03 15:43:03.759  5225  5225 D DebugService: DebugService DebugService:
+03-03 15:43:03.762  5225  5225 D SipService: SipService: started!
+03-03 15:43:03.772  5225  5225 D SipService: start:
+03-03 15:43:03.782  5225  5225 D RILJ    : [3653]> RIL_REQUEST_QUERY_TTY_MODE [SUB0]
+03-03 15:43:03.783  5225  5225 D RilRequest: [3653]< RIL_REQUEST_QUERY_TTY_MODE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+03-03 15:43:03.783  5225  5225 D DCT     : [0]onUpdateIcc: newIccRecords null
+03-03 15:43:03.783  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.783  5225  5225 D GsmSMSDispatcher: GsmSMSDispatcher: subId = -2 slotId = 0
+03-03 15:43:03.783  5225  5225 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+03-03 15:43:03.786  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.786  5225  5225 D GsmSST  : [GsmSST] SubscriptionListener.onSubscriptionInfoChanged
+03-03 15:43:03.786  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.786  5225  5225 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:03.787  5225  5225 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:03.788  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.790  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.790  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.792  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.792  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.793  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.818  5225  5225 E PhoneBase: Error! registerForCallWaiting() in PhoneBase should not be called, CDMAPhone inactive.
+03-03 15:43:03.826  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.826  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.826  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.827  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.828  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.829  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.830  5225  5225 D DctController: handleMessage msg={ when=-44ms what=107 target=com.android.internal.telephony.dataconnection.DctController }
+03-03 15:43:03.830  5225  5225 D DctController: onSubInfoReady mPhoneNum=1
+03-03 15:43:03.830  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.830  5225  5225 D DctController: onSubInfoReady handle pending requests subId=-2
+03-03 15:43:03.830  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.830  5225  5225 D DctController: [TNF -2]evalPendingRequest, pending request size is 1
+03-03 15:43:03.830  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.830  5225  5225 D DctController: [TNF -2]evalPendingRequest: request = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+03-03 15:43:03.830  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.831  5225  5225 D DctController: [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+03-03 15:43:03.831  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.831  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.831  5225  5225 D DctController: [TNF -2]Request not useable, pending request.
+03-03 15:43:03.831  5225  5225 D DctController: processRequests
+03-03 15:43:03.831  5225  5225 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+03-03 15:43:03.833  5225  5225 D DctController: handleMessage msg={ when=-2ms what=100 target=com.android.internal.telephony.dataconnection.DctController }
+03-03 15:43:03.833  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:03.834  5225  5225 D DcSwitchAsyncChannel: [DcSwitchAsyncChannel-0]: rspIsIdle=true
+03-03 15:43:03.834  5225  5225 D DctController: onProcessRequest requestedPhoneId=-1, activePhoneId=-1
+03-03 15:43:06.460  5225  5482 D GsmCellBroadcastHandler: mWakeLock released
+03-03 15:43:06.484  5225  5491 D CellBroadcastHandler: mWakeLock released
+03-03 15:43:06.491  5225  5499 D CdmaServiceCategoryProgramHandler: mWakeLock released
+03-03 15:43:06.616  5225  5498 D CdmaInboundSmsHandler: IdleState.processMessage:5
+03-03 15:43:06.616  5225  5483 D GsmInboundSmsHandler: IdleState.processMessage:5
+03-03 15:43:06.616  5225  5483 D GsmInboundSmsHandler: Idle state processing message type 5
+03-03 15:43:06.616  5225  5498 D CdmaInboundSmsHandler: Idle state processing message type 5
+03-03 15:43:06.617  5225  5483 D GsmInboundSmsHandler: mWakeLock released
+03-03 15:43:06.617  5225  5498 D CdmaInboundSmsHandler: mWakeLock released
+03-03 15:43:06.711  5541  5541 I RILD    : rild_main: i: begin
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: i: argc=1
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:06.711  5541  5541 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:06.712  5541  5541 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:06.712  5541  5541 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:06.719  5541  5541 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:06.719  5541  5541 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:07.380  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:07.675  5225  5225 D SubscriptionController: [getPhoneId] asked for default subId=-1
+03-03 15:43:07.675  5225  5225 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:08.633  5225  5225 D CAT     : com.android.stk.BootCompletedReceiver: [ACTION_BOOT_COMPLETED]
+03-03 15:43:08.634  5225  5225 D CAT     : com.android.stk.StkAppService: onCreate()+
+03-03 15:43:08.634  5225  5225 D CAT     : com.android.stk.StkAppService: simCount: 1
+03-03 15:43:08.648  5225  5225 D CAT     : com.android.stk.StkAppService: slotId: 0
+03-03 15:43:08.651  5225  5225 D CAT     : com.android.stk.StkAppService: onStart sim id: 0, op: 5, *****
+03-03 15:43:08.651  5225  5225 D CAT     : com.android.stk.StkAppService: mStkService is: -1
+03-03 15:43:08.654  5225  5225 D CAT     : StkAppInstaller: [setAppState]+
+03-03 15:43:08.654  5225  5225 D CAT     : StkAppInstaller: Change app state[false]
+03-03 15:43:08.655  5225  5225 D CAT     : StkAppInstaller: [setAppState]-
+03-03 15:43:08.655  5225  5225 D CAT     : com.android.stk.StkAppService: onDestroy()
+03-03 15:43:08.755  5225  5240 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:08.756  5225  5514 D SubscriptionController: [getPhoneId] asked for default subId=-1
+03-03 15:43:08.756  5225  5514 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:08.763  5225  5241 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:08.764  5225  5240 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:08.765  5225  5241 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:08.772  5225  5519 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:08.773  5225  5519 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:08.872  5225  5514 D SubscriptionController: [getActiveSubInfoList]+
+03-03 15:43:08.874  5225  5514 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+03-03 15:43:08.988  5225  5240 D SubscriptionController: [getPhoneId] asked for default subId=-1
+03-03 15:43:08.988  5225  5240 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+03-03 15:43:11.381  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:11.464  5817  5817 I RILD    : rild_main: i: begin
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: i: argc=1
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:11.464  5817  5817 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:11.464  5817  5817 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:11.478  5817  5817 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:11.478  5817  5817 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:15.382  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:16.123  5836  5836 I RILD    : rild_main: i: begin
+03-03 15:43:16.123  5836  5836 I RILD    :     rild_main: i: argc=1
+03-03 15:43:16.123  5836  5836 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:16.123  5836  5836 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:16.123  5836  5836 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:16.124  5836  5836 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:16.124  5836  5836 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:16.129  5836  5836 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:16.129  5836  5836 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:19.382  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:21.182  5871  5871 I RILD    : rild_main: i: begin
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: i: argc=1
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:21.182  5871  5871 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:21.183  5871  5871 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:21.183  5871  5871 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:21.198  5871  5871 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:21.199  5871  5871 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:22.944  5225  5241 D SubscriptionController: [getSlotId]- subId invalid
+03-03 15:43:22.945  5225  5514 D SubscriptionController: [getSubId]- invalid slotIdx=-1
+03-03 15:43:23.093  5225  5514 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:43:23.383  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:26.247  5906  5906 I RILD    : rild_main: i: begin
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: i: argc=1
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:26.247  5906  5906 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:26.247  5906  5906 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:26.258  5906  5906 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:26.258  5906  5906 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:27.384  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:31.384  5225  5467 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+03-03 15:43:31.550  5926  5926 I RILD    : rild_main: i: begin
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: i: argc=1
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:31.550  5926  5926 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:31.550  5926  5926 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:31.558  5926  5926 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:31.558  5926  5926 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:35.385  5225  5467 E RILJ    : Couldn't find 'rild' socket after 8 times, continuing to retry silently
+03-03 15:43:36.251  5955  5955 I RILD    : rild_main: i: begin
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: i: argc=1
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:36.251  5955  5955 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:36.251  5955  5955 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:36.258  5955  5955 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:36.259  5955  5955 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:41.754  5985  5985 I RILD    : rild_main: i: begin
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: i: argc=1
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:41.754  5985  5985 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:41.754  5985  5985 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:41.768  5985  5985 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:41.769  5985  5985 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:46.817  6028  6028 I RILD    : rild_main: i: begin
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: i: argc=1
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:46.817  6028  6028 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:46.817  6028  6028 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:46.828  6028  6028 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:46.828  6028  6028 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:50.310  5225  5519 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:43:51.539  6049  6049 I RILD    : rild_main: i: begin
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: i: argc=1
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:51.539  6049  6049 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:51.539  6049  6049 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:51.548  6049  6049 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:51.549  6049  6049 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:56.399  6092  6092 I RILD    : rild_main: i: begin
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: i: argc=1
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:43:56.399  6092  6092 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:43:56.400  6092  6092 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:43:56.400  6092  6092 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:43:56.400  6092  6092 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:43:56.408  6092  6092 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:43:56.409  6092  6092 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:43:59.813  5225  5240 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:00.590  5225  5514 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:01.853  6110  6110 I RILD    : rild_main: i: begin
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: i: argc=1
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:01.853  6110  6110 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:01.853  6110  6110 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:01.869  6110  6110 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:01.869  6110  6110 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:06.458  6171  6171 I RILD    : rild_main: i: begin
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: i: argc=1
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:06.458  6171  6171 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:06.458  6171  6171 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:06.469  6171  6171 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:06.469  6171  6171 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:10.235  5225  5241 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:10.988  5225  5241 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:11.273  6217  6217 I RILD    : rild_main: i: begin
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: i: argc=1
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:11.273  6217  6217 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:11.273  6217  6217 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:11.291  6217  6217 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:11.291  6217  6217 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:12.778  5225  5514 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:16.496  5225  5519 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:16.787  6242  6242 I RILD    : rild_main: i: begin
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: i: argc=1
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:16.787  6242  6242 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:16.787  6242  6242 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:16.816  6242  6242 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:16.816  6242  6242 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:20.553  5225  5514 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:21.350  5225  5240 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:21.598  6284  6284 I RILD    : rild_main: i: begin
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: i: argc=1
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:21.598  6284  6284 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:21.599  6284  6284 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:21.599  6284  6284 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:21.610  6284  6284 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:21.610  6284  6284 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:27.103  6305  6305 I RILD    : rild_main: i: begin
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: i: argc=1
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:27.103  6305  6305 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:27.103  6305  6305 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:27.119  6305  6305 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:27.119  6305  6305 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:30.873  5225  5240 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:31.690  5225  5514 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:31.921  6400  6400 I RILD    : rild_main: i: begin
+03-03 15:44:31.921  6400  6400 I RILD    :     rild_main: i: argc=1
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:31.922  6400  6400 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:31.922  6400  6400 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:31.938  6400  6400 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:31.938  6400  6400 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:36.204  6479  6479 I RILD    : rild_main: i: begin
+03-03 15:44:36.204  6479  6479 I RILD    :     rild_main: i: argc=1
+03-03 15:44:36.204  6479  6479 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:36.204  6479  6479 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:36.205  6479  6479 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:36.205  6479  6479 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:36.240  6479  6479 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:36.240  6479  6479 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:41.195  5225  5241 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:41.222  6495  6495 I RILD    : rild_main: i: begin
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: i: argc=1
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:41.223  6495  6495 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:41.223  6495  6495 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:41.249  6495  6495 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:41.249  6495  6495 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:42.030  5225  5519 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+03-03 15:44:46.299  6539  6539 I RILD    : rild_main: i: begin
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: i: argc=1
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:46.299  6539  6539 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:46.299  6539  6539 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:46.311  6539  6539 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:46.311  6539  6539 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:51.553  6555  6555 I RILD    : rild_main: i: begin
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: i: argc=1
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:51.553  6555  6555 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:51.553  6555  6555 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:51.570  6555  6555 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:51.570  6555  6555 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:44:56.619  6596  6596 I RILD    : rild_main: i: begin
+03-03 15:44:56.619  6596  6596 I RILD    :     rild_main: i: argc=1
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:44:56.620  6596  6596 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:44:56.620  6596  6596 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:44:56.628  6596  6596 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:44:56.629  6596  6596 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:01.678  6636  6636 I RILD    : rild_main: i: begin
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: i: argc=1
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:01.678  6636  6636 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:01.679  6636  6636 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:01.679  6636  6636 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:01.679  6636  6636 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:01.679  6636  6636 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:01.679  6636  6636 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:01.679  6636  6636 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:01.690  6636  6636 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:01.690  6636  6636 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:06.739  6652  6652 I RILD    : rild_main: i: begin
+03-03 15:45:06.739  6652  6652 I RILD    :     rild_main: i: argc=1
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:06.740  6652  6652 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:06.740  6652  6652 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:06.745  6652  6652 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:06.746  6652  6652 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:11.795  6692  6692 I RILD    : rild_main: i: begin
+03-03 15:45:11.795  6692  6692 I RILD    :     rild_main: i: argc=1
+03-03 15:45:11.795  6692  6692 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:11.795  6692  6692 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:11.796  6692  6692 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:11.796  6692  6692 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:11.802  6692  6692 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:11.802  6692  6692 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:16.852  6709  6709 I RILD    : rild_main: i: begin
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: i: argc=1
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:16.852  6709  6709 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:16.852  6709  6709 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:16.858  6709  6709 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:16.858  6709  6709 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:21.908  6749  6749 I RILD    : rild_main: i: begin
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: i: argc=1
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:21.908  6749  6749 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:21.908  6749  6749 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:21.915  6749  6749 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:21.915  6749  6749 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:26.965  6790  6790 I RILD    : rild_main: i: begin
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: i: argc=1
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:26.965  6790  6790 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:26.965  6790  6790 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:26.972  6790  6790 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:26.973  6790  6790 I RILD    :     rild_main: e: open rilLibPath file failed
+03-03 15:45:32.022  6806  6806 I RILD    : rild_main: i: begin
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: i: argc=1
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: i: argv[0]=/system/bin/rild
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: i: ClientId=0, argv rilLibPath=(null)
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop rild.libargs, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop rild.libpath1, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop rild.libargs1, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop rild.libpath2, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop rild.libargs2, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: rild1 boot config read prop rild.rild1_ready_to_start, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.multi.rild, result=4, value=true
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.config.hw_dsda, result=4, value=true
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop persist.dsds.enabled, result=4, value=true
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.config.dsds_mode, result=8, value=umts_gsm
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.telephony.default_network, result=1, value=0
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.config.hw_device_mode, result=4, value=NULL
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.config.hw_sglte, result=0, value=
+03-03 15:45:32.022  6806  6806 I RILD    :     rild_main: o: read prop ro.config.full_network_support, result=0, value=
+03-03 15:45:32.023  6806  6806 D RILD    : setCommrilModePropforUTL: update mode to ULG
+03-03 15:45:32.028  6806  6806 I RILD    :     rild_main: i: rilLibPath = NULL
+03-03 15:45:32.029  6806  6806 I RILD    :     rild_main: e: open rilLibPath file failed
