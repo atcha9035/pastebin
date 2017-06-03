@@ -1,0 +1,996 @@
+06-03 01:24:57.498  2371  2371 D RILD    : **RIL Daemon Started**
+06-03 01:24:57.498  2371  2371 D RILD    : **RILd param count=1**
+06-03 01:24:57.498  2371  2371 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:01.727  2740  2740 D RILD    : **RIL Daemon Started**
+06-03 01:25:01.727  2740  2740 D RILD    : **RILd param count=1**
+06-03 01:25:01.727  2740  2740 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:06.127  2377  2377 D TelephonyManager: /proc/cmdline=hisi_dma_print=0 vmalloc=384M maxcpus=8 coherent_pool=512K no_irq_affinity ate_enable=true androidboot.selinux=permissive iommu_ddr_size=0x80000000 mem=1932M boardid=0x48696220,0x00000011,0x000002cf productid=0x3db54555 androidboot.mode=normal pmu_nv_addr=0x070c89b0 low_volt_flag=0 iommu_enable  enter_recovery=0 androidboot.swtype=normal fastboot_version=DailyBuild_201702231810_FASTBOOT androidboot.serialno=QLF7N16A22031967 rescue_version=  otg.status=disable normal_reset_type=ColdReset himntn=00011100000000000000000000001000 LCD_TYPE=TM_NT35521_LCD density=320 setup_logctl=0 loglevel=5 bitmapofabnrst=0x00000010  boot_slice=0x00029cc6 no_uart_console mdmlogbase=0x00000000 mdmlogsize=0x00000000 mdmlogtime=0x00000000 async_loadmodem efuse_status=0 recovery_update=0 fblock=unlocked androidboot.hardware=hi6210sft 
+06-03 01:25:06.758  2746  2746 D RILD    : **RIL Daemon Started**
+06-03 01:25:06.758  2746  2746 D RILD    : **RILd param count=1**
+06-03 01:25:06.758  2746  2746 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:07.536  2378  2378 D TelephonyManager: /proc/cmdline=hisi_dma_print=0 vmalloc=384M maxcpus=8 coherent_pool=512K no_irq_affinity ate_enable=true androidboot.selinux=permissive iommu_ddr_size=0x80000000 mem=1932M boardid=0x48696220,0x00000011,0x000002cf productid=0x3db54555 androidboot.mode=normal pmu_nv_addr=0x070c89b0 low_volt_flag=0 iommu_enable  enter_recovery=0 androidboot.swtype=normal fastboot_version=DailyBuild_201702231810_FASTBOOT androidboot.serialno=QLF7N16A22031967 rescue_version=  otg.status=disable normal_reset_type=ColdReset himntn=00011100000000000000000000001000 LCD_TYPE=TM_NT35521_LCD density=320 setup_logctl=0 loglevel=5 bitmapofabnrst=0x00000010  boot_slice=0x00029cc6 no_uart_console mdmlogbase=0x00000000 mdmlogsize=0x00000000 mdmlogtime=0x00000000 async_loadmodem efuse_status=0 recovery_update=0 fblock=unlocked androidboot.hardware=hi6210sft 
+06-03 01:25:12.361  2777  2777 D RILD    : **RIL Daemon Started**
+06-03 01:25:12.361  2777  2777 D RILD    : **RILd param count=1**
+06-03 01:25:12.361  2777  2777 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:17.407  2856  2856 D RILD    : **RIL Daemon Started**
+06-03 01:25:17.407  2856  2856 D RILD    : **RILd param count=1**
+06-03 01:25:17.408  2856  2856 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:19.861  2751  2901 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:19.900  2751  2751 W SmsApplication: com.android.phone does not have OP_WRITE_SMS:  (fixing)
+06-03 01:25:19.900  2751  2751 W SmsApplication: com.android.bluetooth does not have OP_WRITE_SMS:  (fixing)
+06-03 01:25:19.901  2751  2751 W SmsApplication: com.android.mms.service does not have OP_WRITE_SMS:  (fixing)
+06-03 01:25:19.901  2751  2751 W SmsApplication: com.android.providers.telephony does not have OP_WRITE_SMS:  (fixing)
+06-03 01:25:19.911  2751  2751 E CarrierConfigManager: Error getting config for subId -1: java.lang.NullPointerException: Attempt to invoke interface method 'android.os.PersistableBundle com.android.internal.telephony.ICarrierConfigLoader.getConfigForSubId(int)' on a null object reference
+06-03 01:25:20.625  2751  2839 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:20.724  2751  2766 D TelephonyRegistry: systemRunning register for intents
+06-03 01:25:20.925  2751  2751 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=0 cellLocation=Bundle[{cid=-1, lac=-1, psc=-1}]
+06-03 01:25:21.521  3106  3106 D TDC     : updateOrInsert: inserting: Modem { uuid=modem, state=0, rilModel=0, rat={}, maxActiveVoiceCall=1, maxActiveDataCall=1, maxStandby=1 }
+06-03 01:25:21.521  3106  3106 D TDC     : updateOrInsert: inserting: Sim { uuid=sim, modemUuid=modem, state=0 }
+06-03 01:25:21.525  3106  3106 D CdmaSSM : subscriptionSource from settings: 1
+06-03 01:25:21.525  3106  3106 I PhoneFactory: Cdma Subscription set to 1
+06-03 01:25:21.532  3106  3106 I PhoneFactory: Network Mode set to 9
+06-03 01:25:21.534  3106  3106 D RILJ    : RIL(context, preferredNetworkType=9 cdmaSubscription=1)
+06-03 01:25:21.536  3106  3106 D RILJ    : Starting RILReceiver0 [SUB0]
+06-03 01:25:21.538  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:21.540  3106  3106 D RILJ    : [3648]> GET_HARDWARE_CONFIG [SUB0]
+06-03 01:25:21.541  3106  3106 D RilRequest: [3648]< GET_HARDWARE_CONFIG error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:21.541  3106  3106 I PhoneFactory: Creating SubscriptionController
+06-03 01:25:21.544  3106  3106 D SubscriptionController: [SubscriptionController] init by Context
+06-03 01:25:21.546  3106  3106 D UiccController: Creating UiccController
+06-03 01:25:21.554  3106  3106 D TelephonyTester: register for intent action=com.android.internal.telephony.gsm.action_detached
+06-03 01:25:21.554  3106  3106 D TelephonyTester: register for intent action=com.android.internal.telephony.gsm.action_attached
+06-03 01:25:21.558  3106  3106 D PhoneBase: mDoesRilSendMultipleCallRing=true
+06-03 01:25:21.558  3106  3106 D PhoneBase: mCallRingDelay=3000
+06-03 01:25:21.565  3106  3106 D RILJ    : [3649]> RIL_REQUEST_START_LCE [SUB0]
+06-03 01:25:21.565  3106  3106 D RilRequest: [3649]< RIL_REQUEST_START_LCE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:21.565  3106  3106 D RILJ    : setPhoneType=1 old value=0 [SUB0]
+06-03 01:25:21.574  2751  3159 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:21.574  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+06-03 01:25:21.579  3106  3106 D RILJ    : [3650]> SIGNAL_STRENGTH [SUB0]
+06-03 01:25:21.579  3106  3106 D RilRequest: [3650]< SIGNAL_STRENGTH error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:21.590  3106  3106 D DCT     : [0]DCT.constructor
+06-03 01:25:21.590  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.591  3106  3106 D DCT     : [0]getDataEnabled: getIntWithSubId retVal=true
+06-03 01:25:21.593  2751  2839 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:21.607  3210  3210 D RILD    : **RIL Daemon Started**
+06-03 01:25:21.607  3210  3210 D RILD    : **RILd param count=1**
+06-03 01:25:21.607  3210  3210 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:21.611  3106  3106 D Dcc     : E ctor
+06-03 01:25:21.611  3106  3106 D Dcc     : X ctor
+06-03 01:25:21.614  3106  3106 D SubscriptionController: [getPhoneId] asked for default subId=-1
+06-03 01:25:21.614  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.615  3106  3211 D DcTesterDeacativeAll: register for intent action=com.android.internal.telephony.dataconnection.action_deactivate_all
+06-03 01:25:21.615  3106  3211 D DcTesterDeacativeAll: register for intent action=com.android.internal.telephony.gsm.action_detached
+06-03 01:25:21.617  3106  3106 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.dataconnection.action_fail_bringup
+06-03 01:25:21.617  3106  3106 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.gsm.action_detached
+06-03 01:25:21.617  3106  3106 D DcTesterFailBrinupAll: register for intent action=com.android.internal.telephony.gsm.action_attached
+06-03 01:25:21.619  3106  3106 D DCT     : [0]GsmDCT.constructor
+06-03 01:25:21.619  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.619  3106  3106 D DCT     : [0]update sub = -2
+06-03 01:25:21.619  3106  3106 D DCT     : [0]update(): Active DDS, register for all events now!
+06-03 01:25:21.619  3106  3106 D GsmSST  : [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+06-03 01:25:21.619  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+06-03 01:25:21.620  3106  3106 D DCT     : [0]getDataEnabled: getIntWithSubId retVal=true
+06-03 01:25:21.624  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.624  3106  3106 D GSMPhone: [GSMPhone] updateCurrentCarrierInProvider: mSubId = -2 currentDds = -1 operatorNumeric = null
+06-03 01:25:21.626  3106  3106 D DCT     : [0]initApnContexts: E
+06-03 01:25:21.626  3106  3106 D DCT     : [0]initApnContexts: skipping unknown type=1
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.627  3106  3106 D DCT     : [0]initApnContexts: skipping unknown type=7
+06-03 01:25:21.628  3106  3106 D DCT     : [0]initApnContexts: X mApnContexts={default={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, mms={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, cbs={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, fota={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, supl={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ia={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, dun={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, hipri={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ims={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}}
+06-03 01:25:21.644  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+06-03 01:25:21.645  3106  3106 D GSMPhone: [GSMPhone] GSMPhone: constructor: sub = 0
+06-03 01:25:21.645  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+06-03 01:25:21.645  3106  3106 I PhoneFactory: Creating Phone with type = 1 sub = 0
+06-03 01:25:21.650  3106  3106 E RIL_ImsSms: getFormat should never be called from here!
+06-03 01:25:21.650  3106  3106 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=unknown mSmsSendDisabled=false
+06-03 01:25:21.650  3106  3106 D RIL_ImsSms: ImsSMSDispatcher created
+06-03 01:25:21.652  3106  3106 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsSendDisabled=false
+06-03 01:25:21.652  3106  3106 D CdmaSMSDispatcher: CdmaSMSDispatcher created
+06-03 01:25:21.676  3106  3106 D GsmInboundSmsHandler: created InboundSmsHandler
+06-03 01:25:21.686  3106  3106 D CdmaInboundSmsHandler: created InboundSmsHandler
+06-03 01:25:21.698  3106  3106 D SMSDispatcher: SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsSendDisabled=false
+06-03 01:25:21.698  3106  3106 D GsmSMSDispatcher: GsmSMSDispatcher created
+06-03 01:25:21.700  3106  3228 D SmsBroadcastUndelivered: scanning raw table for undelivered messages
+06-03 01:25:21.701  3106  3106 D IccCardProxy: ctor: ci=com.android.internal.telephony.HuaweiRIL@c412b8d phoneId=0
+06-03 01:25:21.701  3106  3106 D CdmaSSM : subscriptionSource from settings: 1
+06-03 01:25:21.701  3106  3106 D CdmaSSM : cdmaSSM constructor: 1
+06-03 01:25:21.701  3106  3106 D IccCardProxy: update icc_operator_numeric=
+06-03 01:25:21.701  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.numeric value:  propVal=
+06-03 01:25:21.702  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.iso-country value:  propVal=
+06-03 01:25:21.702  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.alpha value:  propVal=
+06-03 01:25:21.707  3106  3106 E IccCardProxy: setExternalState: set mPhoneId=0 mExternalState=NOT_READY
+06-03 01:25:21.707  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.sim.state value: NOT_READY propVal=NOT_READY
+06-03 01:25:21.708  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.708  3106  3106 D IccCardProxy: broadcastIccStateChangedIntent intent ACTION_SIM_STATE_CHANGED value=NOT_READY reason=null for mPhoneId=0
+06-03 01:25:21.710  3106  3106 D IccCardProxy: Setting radio tech UMTS
+06-03 01:25:21.710  3106  3106 D TelephonyManager: getLteOnCdmaMode=0 curVal=0 product_type='' lteOnCdmaProductType=''
+06-03 01:25:21.710  3106  3106 D IccCardProxy: updateQuietMode: 3GPP subscription -> newQuietMode=false
+06-03 01:25:21.710  3106  3106 D IccCardProxy: updateQuietMode: no changes don't setExternalState
+06-03 01:25:21.710  3106  3106 D IccCardProxy: updateQuietMode: QuietMode is false (app_type=1 isLteOnCdmaMode=false cdmaSource=-1)
+06-03 01:25:21.711  3106  3117 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:21.712  3106  3117 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:21.717  3106  3106 D ProxyController: Constructor - Enter
+06-03 01:25:21.718  3106  3106 D DctController: makeDctController: new DctController phones.length=1
+06-03 01:25:21.718  3106  3106 D DctController: DctController(): phones.length=1
+06-03 01:25:21.735  3106  3106 D DcSwitchSM: [DcSwitchStateMachine-0] DcSwitchState constructor E
+06-03 01:25:21.735  3106  3106 D DcSwitchSM: [DcSwitchStateMachine-0] DcSwitchState constructor X
+06-03 01:25:21.736  3106  3233 D DcSwitchSM: [DcSwitchStateMachine-0] IdleState: enter
+06-03 01:25:21.748  3106  3106 D DctController: DctController(phones): Connect success: 0
+06-03 01:25:21.748  3106  3106 D DctController: updatePhoneBaseForIndex for phone index=0
+06-03 01:25:21.748  3106  3106 D DctController: unregister TelephonyNetworkFactory for phone index=0
+06-03 01:25:21.749  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.749  3106  3106 D DctController: [TNF -2]NetworkCapabilities: [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]
+06-03 01:25:21.751  2751  2899 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:21.765  3106  3106 D DctController: makeDctController: X sDctController=Handler (com.android.internal.telephony.dataconnection.DctController) {4248bcb}
+06-03 01:25:21.769  3106  3106 D ProxyController: clearTransaction
+06-03 01:25:21.769  3106  3106 D ProxyController: clearTransaction: phoneId=0 status=IDLE
+06-03 01:25:21.769  3106  3106 D ProxyController: Constructor - Exit
+06-03 01:25:21.796  3106  3106 I PhoneFactory: defaultSmsApplication: com.android.messaging
+06-03 01:25:21.799  3106  3106 I PhoneFactory: Creating SubInfoRecordUpdater 
+06-03 01:25:21.799  3106  3106 D SubscriptionInfoUpdater: Constructor invoked
+06-03 01:25:21.808  3106  3106 D CallManager: registerPhone(GSM Handler (com.android.internal.telephony.PhoneProxy) {6bdeef2})
+06-03 01:25:21.835  2751  3158 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:21.876  3106  3106 D RILJ    : [3651]> RIL_REQUEST_SET_TTY_MODE : 0 [SUB0]
+06-03 01:25:21.876  3106  3106 D RilRequest: [3651]< RIL_REQUEST_SET_TTY_MODE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:21.878  2751  2763 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+06-03 01:25:21.879  3106  3106 D SubscriptionController: [getPhoneId] asked for default subId=-1
+06-03 01:25:21.879  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.880  3106  3106 D UiccController: EVENT_RADIO_UNAVAILABLE, dispose card
+06-03 01:25:21.880  3106  3106 D PhoneBase: config LCE service failed: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE
+06-03 01:25:21.880  3106  3106 D RILJ    : [3652]> GET_CURRENT_CALLS [SUB0]
+06-03 01:25:21.880  3106  3106 D RilRequest: [3652]< GET_CURRENT_CALLS error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:21.880  3106  3106 D GsmSST  : [GsmSST] mDeviceShuttingDown = false
+06-03 01:25:21.880  3106  3106 D GsmSST  : [GsmSST] mDesiredPowerState = true
+06-03 01:25:21.880  3106  3106 D GsmSST  : [GsmSST] getRadioState = RADIO_UNAVAILABLE
+06-03 01:25:21.880  3106  3106 D GsmSST  : [GsmSST] mPowerOffDelayNeed = true
+06-03 01:25:21.881  3106  3106 D GsmSST  : [GsmSST] mAlarmSwitch = false
+06-03 01:25:21.881  3106  3106 D PHONE   : [ServiceState] setNullState=1
+06-03 01:25:21.881  3106  3106 D GsmSST  : [GsmSST] Poll ServiceState done:  oldSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false] newSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+06-03 01:25:21.881  3106  3106 D PHONE   : [ServiceState] setNullState=1
+06-03 01:25:21.881  3106  3106 D GsmSST  : [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='No service.'
+06-03 01:25:21.881  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.882  3106  3106 D GsmSST  : [GsmSST] updateSpnDisplay: changed sending intent rule=0 showPlmn='true' plmn='No service.' showSpn='false' spn='' dataSpn='' subId='-2'
+06-03 01:25:21.882  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.883  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.883  3106  3106 D SubscriptionController: [setPlmnSpn] No valid subscription to store info
+06-03 01:25:21.883  3106  3106 D SubscriptionController: notifySubscriptionInfoChanged:
+06-03 01:25:21.884  2751  2900 D TelephonyRegistry: notifySubscriptionInfoChanged: first invocation mRecords.size=14
+06-03 01:25:21.884  3106  3118 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:21.885  3106  3118 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:21.886  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.alpha value:  propVal=
+06-03 01:25:21.886  3106  3117 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:21.887  3106  3117 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:21.887  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.numeric value:  propVal=
+06-03 01:25:21.888  3106  3106 D GsmSST  : [GsmSST] operatorNumeric is null
+06-03 01:25:21.888  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.iso-country value:  propVal=
+06-03 01:25:21.889  3106  3106 D TelephonyManager: setTelephonyProperty: success phoneId=0 property=gsm.operator.isroaming value: false propVal=false
+06-03 01:25:21.890  3106  3106 D GsmSST  : [GsmSST] Broadcasting ServiceState : 1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+06-03 01:25:21.891  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.891  3106  3106 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@3a86a4a ss=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false sender=Handler (com.android.internal.telephony.gsm.GSMPhone) {ed8a943} phondId=0 subId=-2
+06-03 01:25:21.892  3106  3228 D SmsBroadcastUndelivered: finished scanning raw table in 191 ms
+06-03 01:25:21.892  3106  3222 D CdmaInboundSmsHandler: StartupState.processMessage:6
+06-03 01:25:21.892  3106  3213 D GsmInboundSmsHandler: StartupState.processMessage:6
+06-03 01:25:21.892  3106  3222 D CdmaInboundSmsHandler: entering Idle state
+06-03 01:25:21.892  3106  3213 D GsmInboundSmsHandler: entering Idle state
+06-03 01:25:21.893  3106  3106 D SubscriptionController: [getSlotId]- subId invalid
+06-03 01:25:21.893  3106  3106 D SubscriptionController: getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+06-03 01:25:21.893  2751  2763 D SubscriptionManager: getSimStateForSubscriber: simState=6 slotIdx=0
+06-03 01:25:21.893  2751  2763 D TelephonyManager: getSimState: default sim:-1, sim state for slotIdx=0 is 6, return state as unknown
+06-03 01:25:21.895  3106  3106 D DCT     : [0]handleMessage msg={ when=-305ms what=270369 obj=android.os.AsyncResult@e53fdbb target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:21.896  3106  3106 D DCT     : [0]handleMessage msg={ when=-276ms what=270342 obj=android.os.AsyncResult@ab432d8 target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:21.896  3106  3106 D DCT     : [0]onRadioOffOrNotAvailable: is off and clean up all connections
+06-03 01:25:21.896  3106  3106 D DCT     : [0]cleanUpAllConnections: tearDown=false reason=radioTurnedOff
+06-03 01:25:21.896  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.896  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.897  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.898  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.900  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.900  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.901  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.901  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.902  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.903  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.903  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.904  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.904  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.905  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.906  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.906  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.907  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.908  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.908  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.910  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.910  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.910  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.911  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.911  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.912  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.913  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.913  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.913  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.914  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.915  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.915  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.915  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.916  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.916  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.918  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.918  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.918  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.918  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.919  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.920  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.920  3106  3106 D DCT     : [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.920  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.920  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.921  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.922  3106  3106 D DCT     : [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+06-03 01:25:21.922  3106  3106 D DCT     : [0]stopNetStatPoll
+06-03 01:25:21.922  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.923  3106  3106 D DCT     : [0]cleanUpConnection: mDisconnectPendingCount = 0
+06-03 01:25:21.923  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.924  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.924  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.925  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.926  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.926  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.928  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.928  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.929  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.930  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.931  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.931  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.932  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.933  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.933  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.934  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.935  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.935  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.936  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.937  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.938  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.939  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.939  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.940  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.941  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.942  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.942  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.943  3106  3106 D DCT     : [0]handleMessage msg={ when=-324ms what=270345 obj=android.os.AsyncResult@147a631 target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:21.944  3106  3106 D DCT     : [0]onDataConnectionDetached: stop polling and notify detached
+06-03 01:25:21.944  3106  3106 D DCT     : [0]stopNetStatPoll
+06-03 01:25:21.944  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.944  3106  3106 D DCT     : [0]notifyDataConnection: reason=dataDetached
+06-03 01:25:21.944  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.944  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.945  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.946  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.946  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.947  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.948  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.949  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.949  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.950  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.951  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.952  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.953  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.953  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.954  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.955  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.955  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.956  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.957  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.957  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.958  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.959  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.960  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.960  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.961  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.962  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.962  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.963  3106  3106 D DCT     : [0]handleMessage msg={ when=-344ms what=270348 obj=android.os.AsyncResult@b0ae116 target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:21.963  3106  3106 D DCT     : [0]onRoamingOff
+06-03 01:25:21.964  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.964  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:21.964  3106  3106 D DCT     : [0]notifyDataConnection: reason=roamingOff
+06-03 01:25:21.964  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.965  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.965  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.966  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.967  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.968  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.969  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.969  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.970  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.971  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.972  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.972  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.973  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.974  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.974  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.976  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.976  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.977  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.978  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.979  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.979  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.980  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.981  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.982  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.983  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.984  3106  3106 D DCT     : [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - defaultDataSelected= false
+06-03 01:25:21.985  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:21.987  3106  3106 D DCT     : [0]handleMessage msg={ when=-367ms what=270377 obj=android.os.AsyncResult@13aba97 target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:21.987  3106  3106 D DCT     : [0]setupDataOnConnectableApns: nwTypeChanged
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D DCT     : [0]setupDataOnConnectableApns: apnContext {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+06-03 01:25:21.988  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.988  3106  3106 D GsmSMSDispatcher: GsmSMSDispatcher: subId = -2 slotId = 0
+06-03 01:25:21.989  3106  3106 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+06-03 01:25:21.989  3106  3106 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+06-03 01:25:21.989  3106  3106 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+06-03 01:25:21.989  3106  3106 D DctController: EVENT_PHONE1_DATA_DETACH.
+06-03 01:25:21.989  3106  3233 D DcSwitchSM: [DcSwitchStateMachine-0] DefaultState: shouldn't happen but ignore msg.what=0x44008
+06-03 01:25:21.989  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.989  3106  3106 D DctController: [TNF -2]got request NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+06-03 01:25:21.989  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.989  3106  3106 D DctController: [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-03 01:25:21.990  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.990  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:21.990  3106  3106 D DctController: [TNF -2]Request not useable, pending request.
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: [Receiver]+
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: Action: android.intent.action.SIM_STATE_CHANGED
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: slotId: 0
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: simStatus: NOT_READY
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: Ignoring simStatus: NOT_READY
+06-03 01:25:21.991  3106  3106 D SubscriptionInfoUpdater: [Receiver]-
+06-03 01:25:21.992  3106  3106 D DebugService: DebugService DebugService:
+06-03 01:25:21.995  3106  3106 D SipService: SipService: started!
+06-03 01:25:22.000  3106  3106 D SipService: start:
+06-03 01:25:22.004  3106  3106 D RILJ    : [3653]> RIL_REQUEST_QUERY_TTY_MODE [SUB0]
+06-03 01:25:22.005  3106  3106 D RilRequest: [3653]< RIL_REQUEST_QUERY_TTY_MODE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:25:22.005  3106  3106 D DCT     : [0]handleMessage msg={ when=-125ms what=270369 obj=android.os.AsyncResult@24bf8a2 target=com.android.internal.telephony.dataconnection.DcTracker }
+06-03 01:25:22.005  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.005  3106  3106 D GsmSMSDispatcher: GsmSMSDispatcher: subId = -2 slotId = 0
+06-03 01:25:22.005  3106  3106 E IccCardProxy: setExternalState: !override and newstate unchanged from NOT_READY
+06-03 01:25:22.008  3106  3106 D GsmSST  : [GsmSST] SubscriptionListener.onSubscriptionInfoChanged
+06-03 01:25:22.008  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.008  3106  3106 D DCT     : [0]SubscriptionListener.onSubscriptionInfoChanged
+06-03 01:25:22.008  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.008  3106  3106 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:22.009  3106  3106 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:22.009  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.011  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.012  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:22.013  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.014  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.014  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.036  3106  3106 E PhoneBase: Error! registerForCallWaiting() in PhoneBase should not be called, CDMAPhone inactive.
+06-03 01:25:22.043  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.043  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.043  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.043  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.043  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.043  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.043  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.044  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.044  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.047  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.047  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.047  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.047  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.047  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.047  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.048  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.048  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.049  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.049  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.049  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.049  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.049  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.049  3106  3106 D DCT     : [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=true
+06-03 01:25:22.050  3106  3106 D DctController: handleMessage msg={ when=-8ms what=107 target=com.android.internal.telephony.dataconnection.DctController }
+06-03 01:25:22.051  3106  3106 D DctController: onSubInfoReady mPhoneNum=1
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D DctController: onSubInfoReady handle pending requests subId=-2
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D DctController: [TNF -2]evalPendingRequest, pending request size is 1
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D DctController: [TNF -2]evalPendingRequest: request = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D DctController: [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:25:22.051  3106  3106 D DctController: [TNF -2]Request not useable, pending request.
+06-03 01:25:22.051  3106  3106 D DctController: processRequests
+06-03 01:25:22.056  3106  3106 D DctController: handleMessage msg={ when=-4ms what=100 target=com.android.internal.telephony.dataconnection.DctController }
+06-03 01:25:22.056  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:22.056  3106  3106 D DcSwitchAsyncChannel: [DcSwitchAsyncChannel-0]: rspIsIdle=true
+06-03 01:25:22.056  3106  3106 D DctController: onProcessRequest requestedPhoneId=-1, activePhoneId=-1
+06-03 01:25:24.658  3106  3212 D GsmCellBroadcastHandler: mWakeLock released
+06-03 01:25:24.684  3106  3220 D CellBroadcastHandler: mWakeLock released
+06-03 01:25:24.698  3106  3223 D CdmaServiceCategoryProgramHandler: mWakeLock released
+06-03 01:25:24.895  3106  3222 D CdmaInboundSmsHandler: IdleState.processMessage:5
+06-03 01:25:24.895  3106  3222 D CdmaInboundSmsHandler: Idle state processing message type 5
+06-03 01:25:24.895  3106  3213 D GsmInboundSmsHandler: IdleState.processMessage:5
+06-03 01:25:24.895  3106  3213 D GsmInboundSmsHandler: Idle state processing message type 5
+06-03 01:25:24.896  3106  3213 D GsmInboundSmsHandler: mWakeLock released
+06-03 01:25:24.896  3106  3222 D CdmaInboundSmsHandler: mWakeLock released
+06-03 01:25:25.538  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:26.919  3294  3294 D RILD    : **RIL Daemon Started**
+06-03 01:25:26.919  3294  3294 D RILD    : **RILd param count=1**
+06-03 01:25:26.919  3294  3294 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:29.539  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:31.428  3106  3106 D SubscriptionController: [getPhoneId] asked for default subId=-1
+06-03 01:25:31.428  3106  3106 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:32.509  3516  3516 D RILD    : **RIL Daemon Started**
+06-03 01:25:32.509  3516  3516 D RILD    : **RILd param count=1**
+06-03 01:25:32.509  3516  3516 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:33.540  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:33.647  3106  3255 D SubscriptionController: [getPhoneId] asked for default subId=-1
+06-03 01:25:33.647  3106  3117 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:33.648  3106  3255 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:33.649  3106  3117 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:33.698  3106  3118 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:33.708  3106  3118 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:33.714  3106  3117 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:33.715  3106  3117 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:33.815  3106  3118 D SubscriptionController: [getActiveSubInfoList]+
+06-03 01:25:33.816  3106  3118 D SubscriptionController: [getActiveSubInfoList] Sub Controller not ready
+06-03 01:25:33.963  3106  3117 D SubscriptionController: [getPhoneId] asked for default subId=-1
+06-03 01:25:33.964  3106  3117 D SubscriptionController: [getPhoneId]- invalid subId return=-1
+06-03 01:25:37.309  3596  3596 D RILD    : **RIL Daemon Started**
+06-03 01:25:37.309  3596  3596 D RILD    : **RILd param count=1**
+06-03 01:25:37.309  3596  3596 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:37.541  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:37.552  3106  3244 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:41.541  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:41.834  3609  3609 D RILD    : **RIL Daemon Started**
+06-03 01:25:41.834  3609  3609 D RILD    : **RILd param count=1**
+06-03 01:25:41.835  3609  3609 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:42.464  3106  3255 D SubscriptionController: [getSlotId]- subId invalid
+06-03 01:25:42.465  3106  3117 D SubscriptionController: [getSubId]- invalid slotIdx=-1
+06-03 01:25:42.631  3106  3244 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:43.783  3106  3118 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:43.784  3106  3117 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:43.785  3106  3244 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:43.787  3106  3255 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:25:45.542  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:46.861  3657  3657 D RILD    : **RIL Daemon Started**
+06-03 01:25:46.861  3657  3657 D RILD    : **RILd param count=1**
+06-03 01:25:46.861  3657  3657 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:49.543  3106  3203 I RILJ    : Couldn't find 'rild' socket; retrying after timeout
+06-03 01:25:52.166  3703  3703 D RILD    : **RIL Daemon Started**
+06-03 01:25:52.166  3703  3703 D RILD    : **RILd param count=1**
+06-03 01:25:52.167  3703  3703 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:25:53.544  3106  3203 E RILJ    : Couldn't find 'rild' socket after 8 times, continuing to retry silently
+06-03 01:25:57.199  3724  3724 D RILD    : **RIL Daemon Started**
+06-03 01:25:57.199  3724  3724 D RILD    : **RILd param count=1**
+06-03 01:25:57.199  3724  3724 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:01.414  3106  3255 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:26:02.232  3725  3725 D RILD    : **RIL Daemon Started**
+06-03 01:26:02.232  3725  3725 D RILD    : **RILd param count=1**
+06-03 01:26:02.232  3725  3725 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:06.632  3736  3736 D RILD    : **RIL Daemon Started**
+06-03 01:26:06.633  3736  3736 D RILD    : **RILd param count=1**
+06-03 01:26:06.633  3736  3736 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:11.663  3738  3738 D RILD    : **RIL Daemon Started**
+06-03 01:26:11.663  3738  3738 D RILD    : **RILd param count=1**
+06-03 01:26:11.663  3738  3738 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:17.281  3744  3744 D RILD    : **RIL Daemon Started**
+06-03 01:26:17.281  3744  3744 D RILD    : **RILd param count=1**
+06-03 01:26:17.281  3744  3744 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:22.058  3764  3764 D RILD    : **RIL Daemon Started**
+06-03 01:26:22.058  3764  3764 D RILD    : **RILd param count=1**
+06-03 01:26:22.058  3764  3764 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:27.094  3793  3793 D RILD    : **RIL Daemon Started**
+06-03 01:26:27.094  3793  3793 D RILD    : **RILd param count=1**
+06-03 01:26:27.094  3793  3793 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:32.124  3839  3839 D RILD    : **RIL Daemon Started**
+06-03 01:26:32.124  3839  3839 D RILD    : **RILd param count=1**
+06-03 01:26:32.125  3839  3839 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:35.047  3106  3244 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:26:35.049  3106  3117 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:26:35.050  3106  3118 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:26:35.050  3106  3255 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:26:37.281  3871  3871 D RILD    : **RIL Daemon Started**
+06-03 01:26:37.281  3871  3871 D RILD    : **RILd param count=1**
+06-03 01:26:37.281  3871  3871 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:42.312  3928  3928 D RILD    : **RIL Daemon Started**
+06-03 01:26:42.312  3928  3928 D RILD    : **RILd param count=1**
+06-03 01:26:42.312  3928  3928 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:47.341  3931  3931 D RILD    : **RIL Daemon Started**
+06-03 01:26:47.341  3931  3931 D RILD    : **RILd param count=1**
+06-03 01:26:47.341  3931  3931 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:52.372  3954  3954 D RILD    : **RIL Daemon Started**
+06-03 01:26:52.372  3954  3954 D RILD    : **RILd param count=1**
+06-03 01:26:52.372  3954  3954 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:26:57.403  3980  3980 D RILD    : **RIL Daemon Started**
+06-03 01:26:57.403  3980  3980 D RILD    : **RILd param count=1**
+06-03 01:26:57.403  3980  3980 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:02.434  3981  3981 D RILD    : **RIL Daemon Started**
+06-03 01:27:02.434  3981  3981 D RILD    : **RILd param count=1**
+06-03 01:27:02.434  3981  3981 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:07.464  4012  4012 D RILD    : **RIL Daemon Started**
+06-03 01:27:07.464  4012  4012 D RILD    : **RILd param count=1**
+06-03 01:27:07.464  4012  4012 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:12.492  4021  4021 D RILD    : **RIL Daemon Started**
+06-03 01:27:12.492  4021  4021 D RILD    : **RILd param count=1**
+06-03 01:27:12.493  4021  4021 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:17.435  4059  4059 D RILD    : **RIL Daemon Started**
+06-03 01:27:17.435  4059  4059 D RILD    : **RILd param count=1**
+06-03 01:27:17.435  4059  4059 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:22.466  4108  4108 D RILD    : **RIL Daemon Started**
+06-03 01:27:22.466  4108  4108 D RILD    : **RILd param count=1**
+06-03 01:27:22.466  4108  4108 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:27.497  4110  4110 D RILD    : **RIL Daemon Started**
+06-03 01:27:27.497  4110  4110 D RILD    : **RILd param count=1**
+06-03 01:27:27.497  4110  4110 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:32.529  4135  4135 D RILD    : **RIL Daemon Started**
+06-03 01:27:32.529  4135  4135 D RILD    : **RILd param count=1**
+06-03 01:27:32.529  4135  4135 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:37.561  4136  4136 D RILD    : **RIL Daemon Started**
+06-03 01:27:37.561  4136  4136 D RILD    : **RILd param count=1**
+06-03 01:27:37.561  4136  4136 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:42.593  4161  4161 D RILD    : **RIL Daemon Started**
+06-03 01:27:42.593  4161  4161 D RILD    : **RILd param count=1**
+06-03 01:27:42.593  4161  4161 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:47.624  4186  4186 D RILD    : **RIL Daemon Started**
+06-03 01:27:47.624  4186  4186 D RILD    : **RILd param count=1**
+06-03 01:27:47.624  4186  4186 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:52.655  4187  4187 D RILD    : **RIL Daemon Started**
+06-03 01:27:52.655  4187  4187 D RILD    : **RILd param count=1**
+06-03 01:27:52.655  4187  4187 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:27:57.685  4213  4213 D RILD    : **RIL Daemon Started**
+06-03 01:27:57.685  4213  4213 D RILD    : **RILd param count=1**
+06-03 01:27:57.686  4213  4213 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:02.716  4214  4214 D RILD    : **RIL Daemon Started**
+06-03 01:28:02.716  4214  4214 D RILD    : **RILd param count=1**
+06-03 01:28:02.716  4214  4214 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:07.747  4239  4239 D RILD    : **RIL Daemon Started**
+06-03 01:28:07.747  4239  4239 D RILD    : **RILd param count=1**
+06-03 01:28:07.747  4239  4239 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:12.779  4264  4264 D RILD    : **RIL Daemon Started**
+06-03 01:28:12.779  4264  4264 D RILD    : **RILd param count=1**
+06-03 01:28:12.779  4264  4264 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:17.811  4265  4265 D RILD    : **RIL Daemon Started**
+06-03 01:28:17.811  4265  4265 D RILD    : **RILd param count=1**
+06-03 01:28:17.811  4265  4265 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:18.584  3106  3106 D RILJ    : [3654]> SCREEN_STATE: true [SUB0]
+06-03 01:28:18.585  3106  3106 D RilRequest: [3654]< SCREEN_STATE error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE ret=
+06-03 01:28:18.598  3106  3106 D DCT     : [0]onReceive: action=android.intent.action.SCREEN_ON
+06-03 01:28:18.598  3106  3106 D DCT     : [0]stopNetStatPoll
+06-03 01:28:18.598  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:28:18.598  3106  3106 D DCT     : [0]overall state is IDLE
+06-03 01:28:18.598  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:28:18.605  3106  3106 D DCT     : [0]onReceive: action=android.intent.action.SCREEN_OFF
+06-03 01:28:18.605  3106  3106 D DCT     : [0]stopNetStatPoll
+06-03 01:28:18.605  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:28:18.606  3106  3106 D DCT     : [0]overall state is IDLE
+06-03 01:28:18.606  3106  3106 D SubscriptionController: [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+06-03 01:28:22.842  4296  4296 D RILD    : **RIL Daemon Started**
+06-03 01:28:22.842  4296  4296 D RILD    : **RILd param count=1**
+06-03 01:28:22.842  4296  4296 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:23.106  3106  3117 D DCT     : [0]hasMatchedTetherApnSetting: APN=null
+06-03 01:28:27.872  4298  4298 D RILD    : **RIL Daemon Started**
+06-03 01:28:27.872  4298  4298 D RILD    : **RILd param count=1**
+06-03 01:28:27.873  4298  4298 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:32.904  4323  4323 D RILD    : **RIL Daemon Started**
+06-03 01:28:32.904  4323  4323 D RILD    : **RILd param count=1**
+06-03 01:28:32.904  4323  4323 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:37.934  4348  4348 D RILD    : **RIL Daemon Started**
+06-03 01:28:37.934  4348  4348 D RILD    : **RILd param count=1**
+06-03 01:28:37.935  4348  4348 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:42.965  4349  4349 D RILD    : **RIL Daemon Started**
+06-03 01:28:42.965  4349  4349 D RILD    : **RILd param count=1**
+06-03 01:28:42.966  4349  4349 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:47.996  4374  4374 D RILD    : **RIL Daemon Started**
+06-03 01:28:47.996  4374  4374 D RILD    : **RILd param count=1**
+06-03 01:28:47.996  4374  4374 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:53.027  4375  4375 D RILD    : **RIL Daemon Started**
+06-03 01:28:53.027  4375  4375 D RILD    : **RILd param count=1**
+06-03 01:28:53.027  4375  4375 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:28:58.058  4401  4401 D RILD    : **RIL Daemon Started**
+06-03 01:28:58.058  4401  4401 D RILD    : **RILd param count=1**
+06-03 01:28:58.058  4401  4401 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:03.090  4426  4426 D RILD    : **RIL Daemon Started**
+06-03 01:29:03.090  4426  4426 D RILD    : **RILd param count=1**
+06-03 01:29:03.090  4426  4426 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:08.121  4427  4427 D RILD    : **RIL Daemon Started**
+06-03 01:29:08.121  4427  4427 D RILD    : **RILd param count=1**
+06-03 01:29:08.121  4427  4427 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:13.152  4452  4452 D RILD    : **RIL Daemon Started**
+06-03 01:29:13.152  4452  4452 D RILD    : **RILd param count=1**
+06-03 01:29:13.153  4452  4452 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:18.183  4453  4453 D RILD    : **RIL Daemon Started**
+06-03 01:29:18.183  4453  4453 D RILD    : **RILd param count=1**
+06-03 01:29:18.183  4453  4453 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:23.214  4478  4478 D RILD    : **RIL Daemon Started**
+06-03 01:29:23.214  4478  4478 D RILD    : **RILd param count=1**
+06-03 01:29:23.214  4478  4478 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:28.244  4504  4504 D RILD    : **RIL Daemon Started**
+06-03 01:29:28.245  4504  4504 D RILD    : **RILd param count=1**
+06-03 01:29:28.245  4504  4504 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:33.275  4505  4505 D RILD    : **RIL Daemon Started**
+06-03 01:29:33.275  4505  4505 D RILD    : **RILd param count=1**
+06-03 01:29:33.275  4505  4505 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:38.306  4530  4530 D RILD    : **RIL Daemon Started**
+06-03 01:29:38.306  4530  4530 D RILD    : **RILd param count=1**
+06-03 01:29:38.306  4530  4530 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:43.336  4531  4531 D RILD    : **RIL Daemon Started**
+06-03 01:29:43.336  4531  4531 D RILD    : **RILd param count=1**
+06-03 01:29:43.336  4531  4531 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:48.367  4556  4556 D RILD    : **RIL Daemon Started**
+06-03 01:29:48.367  4556  4556 D RILD    : **RILd param count=1**
+06-03 01:29:48.367  4556  4556 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:53.399  4581  4581 D RILD    : **RIL Daemon Started**
+06-03 01:29:53.399  4581  4581 D RILD    : **RILd param count=1**
+06-03 01:29:53.399  4581  4581 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:29:58.431  4584  4584 D RILD    : **RIL Daemon Started**
+06-03 01:29:58.431  4584  4584 D RILD    : **RILd param count=1**
+06-03 01:29:58.431  4584  4584 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:03.463  4610  4610 D RILD    : **RIL Daemon Started**
+06-03 01:30:03.463  4610  4610 D RILD    : **RILd param count=1**
+06-03 01:30:03.463  4610  4610 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:08.493  4611  4611 D RILD    : **RIL Daemon Started**
+06-03 01:30:08.493  4611  4611 D RILD    : **RILd param count=1**
+06-03 01:30:08.494  4611  4611 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:13.524  4636  4636 D RILD    : **RIL Daemon Started**
+06-03 01:30:13.524  4636  4636 D RILD    : **RILd param count=1**
+06-03 01:30:13.524  4636  4636 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:18.555  4661  4661 D RILD    : **RIL Daemon Started**
+06-03 01:30:18.555  4661  4661 D RILD    : **RILd param count=1**
+06-03 01:30:18.555  4661  4661 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:23.585  4662  4662 D RILD    : **RIL Daemon Started**
+06-03 01:30:23.585  4662  4662 D RILD    : **RILd param count=1**
+06-03 01:30:23.586  4662  4662 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:27.616  4688  4688 D RILD    : **RIL Daemon Started**
+06-03 01:30:27.616  4688  4688 D RILD    : **RILd param count=1**
+06-03 01:30:27.616  4688  4688 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:32.647  4689  4689 D RILD    : **RIL Daemon Started**
+06-03 01:30:32.647  4689  4689 D RILD    : **RILd param count=1**
+06-03 01:30:32.647  4689  4689 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:37.678  4714  4714 D RILD    : **RIL Daemon Started**
+06-03 01:30:37.678  4714  4714 D RILD    : **RILd param count=1**
+06-03 01:30:37.678  4714  4714 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:42.711  4730  4730 D RILD    : **RIL Daemon Started**
+06-03 01:30:42.711  4730  4730 D RILD    : **RILd param count=1**
+06-03 01:30:42.711  4730  4730 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:47.742  4740  4740 D RILD    : **RIL Daemon Started**
+06-03 01:30:47.742  4740  4740 D RILD    : **RILd param count=1**
+06-03 01:30:47.742  4740  4740 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:52.773  4765  4765 D RILD    : **RIL Daemon Started**
+06-03 01:30:52.773  4765  4765 D RILD    : **RILd param count=1**
+06-03 01:30:52.774  4765  4765 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:30:57.804  4767  4767 D RILD    : **RIL Daemon Started**
+06-03 01:30:57.804  4767  4767 D RILD    : **RILd param count=1**
+06-03 01:30:57.805  4767  4767 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:02.835  4792  4792 D RILD    : **RIL Daemon Started**
+06-03 01:31:02.835  4792  4792 D RILD    : **RILd param count=1**
+06-03 01:31:02.835  4792  4792 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:07.866  4795  4795 D RILD    : **RIL Daemon Started**
+06-03 01:31:07.866  4795  4795 D RILD    : **RILd param count=1**
+06-03 01:31:07.866  4795  4795 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:12.897  4818  4818 D RILD    : **RIL Daemon Started**
+06-03 01:31:12.897  4818  4818 D RILD    : **RILd param count=1**
+06-03 01:31:12.898  4818  4818 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:17.929  4843  4843 D RILD    : **RIL Daemon Started**
+06-03 01:31:17.929  4843  4843 D RILD    : **RILd param count=1**
+06-03 01:31:17.930  4843  4843 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:22.960  4844  4844 D RILD    : **RIL Daemon Started**
+06-03 01:31:22.960  4844  4844 D RILD    : **RILd param count=1**
+06-03 01:31:22.960  4844  4844 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:27.992  4870  4870 D RILD    : **RIL Daemon Started**
+06-03 01:31:27.992  4870  4870 D RILD    : **RILd param count=1**
+06-03 01:31:27.993  4870  4870 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:33.023  4873  4873 D RILD    : **RIL Daemon Started**
+06-03 01:31:33.024  4873  4873 D RILD    : **RILd param count=1**
+06-03 01:31:33.024  4873  4873 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:38.054  4896  4896 D RILD    : **RIL Daemon Started**
+06-03 01:31:38.054  4896  4896 D RILD    : **RILd param count=1**
+06-03 01:31:38.054  4896  4896 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:43.085  4921  4921 D RILD    : **RIL Daemon Started**
+06-03 01:31:43.085  4921  4921 D RILD    : **RILd param count=1**
+06-03 01:31:43.085  4921  4921 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:48.115  4922  4922 D RILD    : **RIL Daemon Started**
+06-03 01:31:48.116  4922  4922 D RILD    : **RILd param count=1**
+06-03 01:31:48.116  4922  4922 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:53.146  4947  4947 D RILD    : **RIL Daemon Started**
+06-03 01:31:53.146  4947  4947 D RILD    : **RILd param count=1**
+06-03 01:31:53.147  4947  4947 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:31:58.178  4951  4951 D RILD    : **RIL Daemon Started**
+06-03 01:31:58.178  4951  4951 D RILD    : **RILd param count=1**
+06-03 01:31:58.179  4951  4951 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:03.210  4974  4974 D RILD    : **RIL Daemon Started**
+06-03 01:32:03.210  4974  4974 D RILD    : **RILd param count=1**
+06-03 01:32:03.210  4974  4974 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:08.242  4999  4999 D RILD    : **RIL Daemon Started**
+06-03 01:32:08.242  4999  4999 D RILD    : **RILd param count=1**
+06-03 01:32:08.243  4999  4999 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:13.274  5000  5000 D RILD    : **RIL Daemon Started**
+06-03 01:32:13.274  5000  5000 D RILD    : **RILd param count=1**
+06-03 01:32:13.274  5000  5000 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:18.305  5025  5025 D RILD    : **RIL Daemon Started**
+06-03 01:32:18.305  5025  5025 D RILD    : **RILd param count=1**
+06-03 01:32:18.305  5025  5025 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:23.331  5028  5028 D RILD    : **RIL Daemon Started**
+06-03 01:32:23.331  5028  5028 D RILD    : **RILd param count=1**
+06-03 01:32:23.331  5028  5028 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:28.362  5052  5052 D RILD    : **RIL Daemon Started**
+06-03 01:32:28.362  5052  5052 D RILD    : **RILd param count=1**
+06-03 01:32:28.362  5052  5052 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:33.393  5077  5077 D RILD    : **RIL Daemon Started**
+06-03 01:32:33.393  5077  5077 D RILD    : **RILd param count=1**
+06-03 01:32:33.394  5077  5077 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:38.425  5078  5078 D RILD    : **RIL Daemon Started**
+06-03 01:32:38.425  5078  5078 D RILD    : **RILd param count=1**
+06-03 01:32:38.425  5078  5078 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:43.456  5103  5103 D RILD    : **RIL Daemon Started**
+06-03 01:32:43.456  5103  5103 D RILD    : **RILd param count=1**
+06-03 01:32:43.456  5103  5103 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:48.487  5104  5104 D RILD    : **RIL Daemon Started**
+06-03 01:32:48.487  5104  5104 D RILD    : **RILd param count=1**
+06-03 01:32:48.488  5104  5104 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:53.520  5129  5129 D RILD    : **RIL Daemon Started**
+06-03 01:32:53.520  5129  5129 D RILD    : **RILd param count=1**
+06-03 01:32:53.520  5129  5129 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:32:58.552  5155  5155 D RILD    : **RIL Daemon Started**
+06-03 01:32:58.552  5155  5155 D RILD    : **RILd param count=1**
+06-03 01:32:58.552  5155  5155 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:03.583  5156  5156 D RILD    : **RIL Daemon Started**
+06-03 01:33:03.583  5156  5156 D RILD    : **RILd param count=1**
+06-03 01:33:03.583  5156  5156 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:07.613  5181  5181 D RILD    : **RIL Daemon Started**
+06-03 01:33:07.613  5181  5181 D RILD    : **RILd param count=1**
+06-03 01:33:07.613  5181  5181 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:12.644  5182  5182 D RILD    : **RIL Daemon Started**
+06-03 01:33:12.644  5182  5182 D RILD    : **RILd param count=1**
+06-03 01:33:12.644  5182  5182 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:17.675  5207  5207 D RILD    : **RIL Daemon Started**
+06-03 01:33:17.675  5207  5207 D RILD    : **RILd param count=1**
+06-03 01:33:17.675  5207  5207 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:22.706  5232  5232 D RILD    : **RIL Daemon Started**
+06-03 01:33:22.706  5232  5232 D RILD    : **RILd param count=1**
+06-03 01:33:22.707  5232  5232 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:27.737  5234  5234 D RILD    : **RIL Daemon Started**
+06-03 01:33:27.737  5234  5234 D RILD    : **RILd param count=1**
+06-03 01:33:27.737  5234  5234 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:32.768  5259  5259 D RILD    : **RIL Daemon Started**
+06-03 01:33:32.768  5259  5259 D RILD    : **RILd param count=1**
+06-03 01:33:32.768  5259  5259 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:37.800  5260  5260 D RILD    : **RIL Daemon Started**
+06-03 01:33:37.800  5260  5260 D RILD    : **RILd param count=1**
+06-03 01:33:37.801  5260  5260 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:42.831  5285  5285 D RILD    : **RIL Daemon Started**
+06-03 01:33:42.832  5285  5285 D RILD    : **RILd param count=1**
+06-03 01:33:42.832  5285  5285 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:47.860  5309  5309 D RILD    : **RIL Daemon Started**
+06-03 01:33:47.860  5309  5309 D RILD    : **RILd param count=1**
+06-03 01:33:47.861  5309  5309 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:52.891  5310  5310 D RILD    : **RIL Daemon Started**
+06-03 01:33:52.892  5310  5310 D RILD    : **RILd param count=1**
+06-03 01:33:52.892  5310  5310 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:33:57.923  5336  5336 D RILD    : **RIL Daemon Started**
+06-03 01:33:57.923  5336  5336 D RILD    : **RILd param count=1**
+06-03 01:33:57.924  5336  5336 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:02.954  5337  5337 D RILD    : **RIL Daemon Started**
+06-03 01:34:02.954  5337  5337 D RILD    : **RILd param count=1**
+06-03 01:34:02.954  5337  5337 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:07.986  5362  5362 D RILD    : **RIL Daemon Started**
+06-03 01:34:07.986  5362  5362 D RILD    : **RILd param count=1**
+06-03 01:34:07.986  5362  5362 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:13.017  5378  5378 D RILD    : **RIL Daemon Started**
+06-03 01:34:13.017  5378  5378 D RILD    : **RILd param count=1**
+06-03 01:34:13.018  5378  5378 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:18.049  5388  5388 D RILD    : **RIL Daemon Started**
+06-03 01:34:18.049  5388  5388 D RILD    : **RILd param count=1**
+06-03 01:34:18.049  5388  5388 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:23.081  5413  5413 D RILD    : **RIL Daemon Started**
+06-03 01:34:23.081  5413  5413 D RILD    : **RILd param count=1**
+06-03 01:34:23.081  5413  5413 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:28.113  5415  5415 D RILD    : **RIL Daemon Started**
+06-03 01:34:28.113  5415  5415 D RILD    : **RILd param count=1**
+06-03 01:34:28.113  5415  5415 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:33.143  5440  5440 D RILD    : **RIL Daemon Started**
+06-03 01:34:33.143  5440  5440 D RILD    : **RILd param count=1**
+06-03 01:34:33.144  5440  5440 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:38.173  5456  5456 D RILD    : **RIL Daemon Started**
+06-03 01:34:38.173  5456  5456 D RILD    : **RILd param count=1**
+06-03 01:34:38.173  5456  5456 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:43.204  5466  5466 D RILD    : **RIL Daemon Started**
+06-03 01:34:43.204  5466  5466 D RILD    : **RILd param count=1**
+06-03 01:34:43.204  5466  5466 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:48.236  5491  5491 D RILD    : **RIL Daemon Started**
+06-03 01:34:48.236  5491  5491 D RILD    : **RILd param count=1**
+06-03 01:34:48.236  5491  5491 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:53.267  5492  5492 D RILD    : **RIL Daemon Started**
+06-03 01:34:53.267  5492  5492 D RILD    : **RILd param count=1**
+06-03 01:34:53.267  5492  5492 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:34:58.298  5518  5518 D RILD    : **RIL Daemon Started**
+06-03 01:34:58.299  5518  5518 D RILD    : **RILd param count=1**
+06-03 01:34:58.299  5518  5518 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:03.332  5532  5532 D RILD    : **RIL Daemon Started**
+06-03 01:35:03.332  5532  5532 D RILD    : **RILd param count=1**
+06-03 01:35:03.332  5532  5532 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:08.363  5544  5544 D RILD    : **RIL Daemon Started**
+06-03 01:35:08.363  5544  5544 D RILD    : **RILd param count=1**
+06-03 01:35:08.363  5544  5544 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:13.394  5569  5569 D RILD    : **RIL Daemon Started**
+06-03 01:35:13.394  5569  5569 D RILD    : **RILd param count=1**
+06-03 01:35:13.395  5569  5569 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:18.426  5570  5570 D RILD    : **RIL Daemon Started**
+06-03 01:35:18.426  5570  5570 D RILD    : **RILd param count=1**
+06-03 01:35:18.426  5570  5570 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:23.457  5595  5595 D RILD    : **RIL Daemon Started**
+06-03 01:35:23.457  5595  5595 D RILD    : **RILd param count=1**
+06-03 01:35:23.457  5595  5595 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:28.488  5600  5600 D RILD    : **RIL Daemon Started**
+06-03 01:35:28.488  5600  5600 D RILD    : **RILd param count=1**
+06-03 01:35:28.488  5600  5600 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:33.520  5627  5627 D RILD    : **RIL Daemon Started**
+06-03 01:35:33.520  5627  5627 D RILD    : **RILd param count=1**
+06-03 01:35:33.521  5627  5627 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:38.552  5652  5652 D RILD    : **RIL Daemon Started**
+06-03 01:35:38.552  5652  5652 D RILD    : **RILd param count=1**
+06-03 01:35:38.552  5652  5652 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:43.583  5653  5653 D RILD    : **RIL Daemon Started**
+06-03 01:35:43.583  5653  5653 D RILD    : **RILd param count=1**
+06-03 01:35:43.583  5653  5653 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:47.613  5678  5678 D RILD    : **RIL Daemon Started**
+06-03 01:35:47.613  5678  5678 D RILD    : **RILd param count=1**
+06-03 01:35:47.613  5678  5678 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:52.644  5679  5679 D RILD    : **RIL Daemon Started**
+06-03 01:35:52.644  5679  5679 D RILD    : **RILd param count=1**
+06-03 01:35:52.644  5679  5679 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:35:57.675  5705  5705 D RILD    : **RIL Daemon Started**
+06-03 01:35:57.675  5705  5705 D RILD    : **RILd param count=1**
+06-03 01:35:57.675  5705  5705 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:02.706  5730  5730 D RILD    : **RIL Daemon Started**
+06-03 01:36:02.706  5730  5730 D RILD    : **RILd param count=1**
+06-03 01:36:02.706  5730  5730 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:07.736  5731  5731 D RILD    : **RIL Daemon Started**
+06-03 01:36:07.737  5731  5731 D RILD    : **RILd param count=1**
+06-03 01:36:07.737  5731  5731 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:12.767  5756  5756 D RILD    : **RIL Daemon Started**
+06-03 01:36:12.768  5756  5756 D RILD    : **RILd param count=1**
+06-03 01:36:12.768  5756  5756 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:17.800  5757  5757 D RILD    : **RIL Daemon Started**
+06-03 01:36:17.800  5757  5757 D RILD    : **RILd param count=1**
+06-03 01:36:17.800  5757  5757 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:22.830  5782  5782 D RILD    : **RIL Daemon Started**
+06-03 01:36:22.830  5782  5782 D RILD    : **RILd param count=1**
+06-03 01:36:22.831  5782  5782 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:27.861  5808  5808 D RILD    : **RIL Daemon Started**
+06-03 01:36:27.862  5808  5808 D RILD    : **RILd param count=1**
+06-03 01:36:27.862  5808  5808 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:32.892  5809  5809 D RILD    : **RIL Daemon Started**
+06-03 01:36:32.892  5809  5809 D RILD    : **RILd param count=1**
+06-03 01:36:32.892  5809  5809 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:37.923  5834  5834 D RILD    : **RIL Daemon Started**
+06-03 01:36:37.923  5834  5834 D RILD    : **RILd param count=1**
+06-03 01:36:37.923  5834  5834 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:42.953  5835  5835 D RILD    : **RIL Daemon Started**
+06-03 01:36:42.954  5835  5835 D RILD    : **RILd param count=1**
+06-03 01:36:42.954  5835  5835 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:47.984  5860  5860 D RILD    : **RIL Daemon Started**
+06-03 01:36:47.984  5860  5860 D RILD    : **RILd param count=1**
+06-03 01:36:47.984  5860  5860 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:53.015  5885  5885 D RILD    : **RIL Daemon Started**
+06-03 01:36:53.015  5885  5885 D RILD    : **RILd param count=1**
+06-03 01:36:53.015  5885  5885 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:36:58.045  5887  5887 D RILD    : **RIL Daemon Started**
+06-03 01:36:58.046  5887  5887 D RILD    : **RILd param count=1**
+06-03 01:36:58.046  5887  5887 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:03.076  5912  5912 D RILD    : **RIL Daemon Started**
+06-03 01:37:03.076  5912  5912 D RILD    : **RILd param count=1**
+06-03 01:37:03.077  5912  5912 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:08.107  5913  5913 D RILD    : **RIL Daemon Started**
+06-03 01:37:08.107  5913  5913 D RILD    : **RILd param count=1**
+06-03 01:37:08.107  5913  5913 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:13.138  5938  5938 D RILD    : **RIL Daemon Started**
+06-03 01:37:13.138  5938  5938 D RILD    : **RILd param count=1**
+06-03 01:37:13.138  5938  5938 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:18.170  5963  5963 D RILD    : **RIL Daemon Started**
+06-03 01:37:18.170  5963  5963 D RILD    : **RILd param count=1**
+06-03 01:37:18.170  5963  5963 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:23.201  5967  5967 D RILD    : **RIL Daemon Started**
+06-03 01:37:23.201  5967  5967 D RILD    : **RILd param count=1**
+06-03 01:37:23.201  5967  5967 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:28.233  5993  5993 D RILD    : **RIL Daemon Started**
+06-03 01:37:28.233  5993  5993 D RILD    : **RILd param count=1**
+06-03 01:37:28.233  5993  5993 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:33.264  5994  5994 D RILD    : **RIL Daemon Started**
+06-03 01:37:33.264  5994  5994 D RILD    : **RILd param count=1**
+06-03 01:37:33.264  5994  5994 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:38.295  6019  6019 D RILD    : **RIL Daemon Started**
+06-03 01:37:38.295  6019  6019 D RILD    : **RILd param count=1**
+06-03 01:37:38.295  6019  6019 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:43.326  6044  6044 D RILD    : **RIL Daemon Started**
+06-03 01:37:43.326  6044  6044 D RILD    : **RILd param count=1**
+06-03 01:37:43.326  6044  6044 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:48.357  6045  6045 D RILD    : **RIL Daemon Started**
+06-03 01:37:48.357  6045  6045 D RILD    : **RILd param count=1**
+06-03 01:37:48.357  6045  6045 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:53.389  6070  6070 D RILD    : **RIL Daemon Started**
+06-03 01:37:53.389  6070  6070 D RILD    : **RILd param count=1**
+06-03 01:37:53.389  6070  6070 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:37:58.421  6072  6072 D RILD    : **RIL Daemon Started**
+06-03 01:37:58.421  6072  6072 D RILD    : **RILd param count=1**
+06-03 01:37:58.422  6072  6072 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:38:03.453  6097  6097 D RILD    : **RIL Daemon Started**
+06-03 01:38:03.453  6097  6097 D RILD    : **RILd param count=1**
+06-03 01:38:03.453  6097  6097 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:38:08.483  6122  6122 D RILD    : **RIL Daemon Started**
+06-03 01:38:08.484  6122  6122 D RILD    : **RILd param count=1**
+06-03 01:38:08.484  6122  6122 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:38:13.515  6123  6123 D RILD    : **RIL Daemon Started**
+06-03 01:38:13.515  6123  6123 D RILD    : **RILd param count=1**
+06-03 01:38:13.515  6123  6123 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
+06-03 01:38:18.545  6148  6148 D RILD    : **RIL Daemon Started**
+06-03 01:38:18.545  6148  6148 D RILD    : **RILd param count=1**
+06-03 01:38:18.546  6148  6148 E RILD    : dlopen failed: dlopen failed: library "/system/lib64/libbalong-ril.so" not found
